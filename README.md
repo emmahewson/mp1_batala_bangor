@@ -1,108 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Batala Bangor Drumming Band Website
 
-Welcome USER_NAME,
+Batala Bangor is a samba reggae drumming group based in North Wales. The music they play originates in Salvador, Brazil, and Batala Bangor is one of over 40 Batala bands worldwide who all play the same rhythms and meet up regularly for international events. Each summer the band perform at local carnivals, fairs, festivals and events across North Wales and beyond. Anyone can join and no experience is required, bi-annual beginners sessions are held in the spring and autumn each year.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+They are looking for a new website to promote the band both to local events or individuals who would like to book live music for their event and to people who are interested in joining the band.
 
 ---
 
-Happy coding!
+### Must include
+
+* Band name
+* Band logo
+* What is Batala Bangor? (About Us)
+* Origins of music
+* Images of band
+* Videos of band
+* Upcoming gigs
+* Join the band - information (time, location etc)
+* Join the band - contact form
+* Book the band - information
+* Book the band - contact form
+* Contact details
+* Social Media Links
+* Events we've played at
+
+---
+
+### Users / Audience
+
+* Someone looking to book a band for their event
+* Someone who wants to find out more information about booking the band
+* Someone who'd like to join the band
+* Someone who has seen the band live or on social media and wants to learn more
+* Other international Batala bands learning about bands around the world
+* More Specific user stories
+  * A local person looking to join a community club in the area
+  * The organiser of a village fair looking for musical groups to perform at their event
+  * A holiday-maker who saw the band performing and wants to find out what kind of music they're playing
+  * A member of Batala Austria who is coming to North Wales on holiday and wants to find out about the local Batala band
+
+---
+
+### Pages and Structure
+
+**All Pages**
+
+  * Band logo
+  * Band name
+  * Band tagline?
+  * Nav links
+  * Social Links
+  * Contact Details (email)
+
+**1. Homepage**
+  * Name of band
+  * Tagline
+  * Logo
+  * brief description of band (1-2 lines including music style, location, catching & exciting)
+  * Hero image
+  * Book the band link - large with image
+  * Join the band link - large with image
+  * Upcoming Gigs Listings
+
+**2. About Us (Possibly part of homepage)**
+  * Hero Image
+  * Heading
+  * Text
+    * Batala Project & brief history
+    * Batala Bangor - who, what, how many, community, non-profit
+
+**3. Gallery**
+  * Images of band
+  * Videos of band
+  * Text - do you have photos of the band? Send them over...
+
+**4. Join Us**
+  * Heading - Call to action (Catchy title .... ready to start drumming?)
+  * Image/s - variety of people / friendship / fun
+  * Text info
+    * Experience
+    * Equipment
+    * Commitment (gigs & rehearsals)
+    * Opportunities (joining international events etc)
+    * Beginners sessions
+  * Contact Form (integrate google form?)
+    * Name
+    * Email
+    * Where did you hear/see us?
+    * Why do you want to join?
+    * Musical / drumming experience
+
+**5. Book Us**
+  * Heading - Call to action (Catchy title .... need us to make some noise?)
+  * Image/s - professional / big events / fun / exciting
+  * Text info - short paragraph
+    * Type of music
+    * Suitable for
+  * Events we have played
+  * Contact Form / Contact Details
+    * Name
+    * Email
+    * Event Name
+    * Event Date
+    * Details about the event
+    * Have you booked us before?
