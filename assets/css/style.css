@@ -6,6 +6,10 @@
     background-color: #282727;
 }
 
+.bg-col-red {
+    background-color: #CB3737;
+}
+
 /*-----------------------------------------------------------General Text */
 
 body {
@@ -28,18 +32,33 @@ h2 {
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 700;
     font-size: 36px;
 }
 
 .button-text {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 600px;
-    font-size: 16px;
+    font-weight: 700px;
+    color:#282727;
+}
+
+.txt-cent {
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------Containers */
+
+.section-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /*-----------------------------------------------------------Nav */
 
+.navbar {
+    opacity: 95%;
+}
 
 .nav-brand {
     font-weight: 200;
@@ -66,7 +85,7 @@ h3 {
 
 .nav-item a {
     list-style: none;
-    color: #c3c3c3;
+    color: #d1d1d1;
     font-weight: 100;
     font-size: 90%;
 }
@@ -74,3 +93,89 @@ h3 {
 .navbar-toggler {
     border: 0;
 }
+
+.nav-behind {
+    background-color: #282727;
+    height: 96px;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------Hero */
+
+.hero-bg-container {
+    height: 90vh;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
+        url("../images/hero_home.jpg");
+    background-color: #282727;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.circle-button-lrg {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.white-circle {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+.line-circle-inner,
+.line-circle-middle,
+.line-circle-outer {
+    border: 2px solid #282727;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.line-circle-inner {
+    width: 80%;
+    height: 80%;
+    opacity: 40%;
+}
+
+.line-circle-middle {
+    width: 90%;
+    height: 90%;
+    opacity: 30%;
+}
+
+.line-circle-outer {
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+}
+
+.button-text-cont {
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+}
+
+
+
+
+
