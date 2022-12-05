@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
+
+/*-----------------------------------------------------------Colors */
+
+.bg-col-navbar {
+    background-color: #282727;
+}
+
+/*-----------------------------------------------------------General Text */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, nav {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.button-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+/*-----------------------------------------------------------Nav */
+
+
+.nav-brand {
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-brand:hover {
+    color:white;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: 200;
+}
+
+#bb-logo {
+    width: 60px;
+    height: auto;
+    margin: 10px 5px 10px 5px;
+}
+
+.nav-item a {
+    list-style: none;
+    color: #c3c3c3;
+    font-weight: 100;
+    font-size: 90%;
+}
+
+.navbar-toggler {
+    border: 0;
+}
