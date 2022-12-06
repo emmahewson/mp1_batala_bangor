@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
 
+
 /*-----------------------------------------------------------Colors */
 
 .bg-col-navbar {
@@ -10,6 +11,10 @@
     background-color: #CB3737;
 }
 
+.bg-col-dk {
+    background-color: #3a3a3a;
+}
+
 /*-----------------------------------------------------------General Text */
 
 body {
@@ -17,13 +22,17 @@ body {
     color: white;
 }
 
-h1, h2, h3, nav {
+h1,
+h2,
+h3,
+nav {
     font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
     font-weight: 700;
     font-size: 80px;
+
 }
 
 h2 {
@@ -38,20 +47,23 @@ h3 {
 
 .button-text {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 700px;
-    color:#282727;
+    color: #282727;
 }
 
 .txt-cent {
     text-align: center;
 }
 
+.bottom-margin-text {
+    margin-bottom: 60px;
+}
+
 
 /*-----------------------------------------------------------Containers */
 
-.section-container {
-    padding-top: 200px;
-    padding-bottom: 200px;
+.row,
+figure {
+    margin: 0;
 }
 
 /*-----------------------------------------------------------Nav */
@@ -69,7 +81,7 @@ h3 {
 }
 
 .nav-brand:hover {
-    color:white;
+    color: white;
 }
 
 .nav-link:hover {
@@ -103,6 +115,7 @@ h3 {
 /*-----------------------------------------------------------Hero */
 
 .hero-bg-container {
+    padding: 0;
     height: 90vh;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
@@ -119,10 +132,22 @@ h3 {
 
 .hero-text {
     position: absolute;
-    top: 70%;
+    bottom: 30px;
     width: 100%;
-    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+/*-----------------------------------------------------------Text Section */
+
+.text-section-container {
+    padding: 200px 0px;
+}
+
+
+/*-----------------------------------------------------------Buttons */
 
 .circle-button-lrg {
     width: 140px;
@@ -131,8 +156,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-
+    margin: 0 auto;
 }
 
 .white-circle {
@@ -141,6 +165,16 @@ h3 {
     border-radius: 50%;
     background-color: white;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-circle p {
+    padding: 0;
+    margin: 0;
+    line-height: 120%;
+    font-weight: 600;
 }
 
 .line-circle-inner,
@@ -169,13 +203,90 @@ h3 {
     opacity: 20%;
 }
 
-.button-text-cont {
-    position: absolute;
-    z-index: 2;
-    width: 60%;
+/*-----------------------------------------------------------Gallery & Video */
+
+.gallery-image {
+    padding: 0;
+}
+
+.gallery-image img {
+    max-width: 100%;
+}
+
+.video-section-container {
+    padding: 100px 0px;
 }
 
 
+/*-----------------------------------------------------------Footer */
+
+footer {
+    height: 100px;
+    background-color: #282727;
+    position: relative;
+}
+
+#footer-links-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+}
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: #282727;
+    background: #ffffff;
+}
+
+.social-links li a i:hover {
+    background-color: #CB3737;
+}
+
+/*-----------------------------------------------------------Media Queries */
+
+/* Small */
+
+@media(max-width: 575px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #bb-logo {
+        width: 40px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .nav-behind {
+        height: 56px;
+
+    }
+
+    .text-section-container {
+        padding: 100px 0px;
+    }
+}
 
 
+/* Medium */
 
+@media screen and (max-width: 767px) {
+    .nav-brand span {
+        display: none;
+    }
+}

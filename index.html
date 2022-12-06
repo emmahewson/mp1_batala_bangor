@@ -20,7 +20,7 @@
         <div class="container-fluid">
             <a href="#" class="nav-brand">
                 <img src="assets/images/bb_logo_200.png" alt="Batala Bangor Logo" id="bb-logo">
-                BATALA BANGOR
+                <span>BATALA BANGOR</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,41 +41,112 @@
         </div>
     </nav>
     <div class="nav-behind"></div>
-    <div class="container-fluid hero-bg-container">
-        <div class="hero-text">
-            <h1>BATALA BANGOR</h1>
-            <h2>SAMBA REGGAE DRUMMING BAND • NORTH WALES</h2>
-        </div>
-    </div>
 
-    <div class="container-fluid section-container bg-col-red">
-        <div class="row">
-            <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 txt-cent">
-                <h3>BATALA HEY!</h3>
-                <p>We are Batala Bangor, a vibrant Samba-Reggae Percussion band full of energy and uplifting spirit! We
-                    play
-                    at carnivals, festivals, fairs and private events across North Wales, the UK and around the world.
-                </p>
-                <p>We bring energy, noise and fun to any event!</p>
+    <header class="hero-bg-container">
+        <div>
+            <div class="hero-text txt-cent">
+                <h1>BATALA BANGOR</h1>
+                <h2>SAMBA REGGAE DRUMMING BAND<br>NORTH WALES</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+    </header>
+
+    <section>
+        <div class="container-fluid text-section-container bg-col-red">
+            <div class="row" id="batala-hey-row">
+                <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 txt-cent bottom-margin-text">
+                    <h3>BATALA HEY!</h3>
+                    <p>We are Batala Bangor, a vibrant Samba-Reggae Percussion band full of energy and uplifting spirit!
+                        We
+                        play
+                        at carnivals, festivals, fairs and private events across North Wales, the UK and around the
+                        world.
+                    </p>
+                    <p>We bring energy, noise and fun to any event!</p>
+                </div>
                 <a href="#">
                     <div class="circle-button-lrg">
-                        <div class="white-circle"></div>
+                        <div class="white-circle">
+                            <p class="button-text txt-cent">FIND OUT MORE</p>
+                        </div>
                         <div class="line-circle-inner"></div>
                         <div class="line-circle-middle"></div>
                         <div class="line-circle-outer"></div>
-                        <div class="button-text-cont"><p class="button-text txt-cent">FIND OUT MORE</p></div>
                     </div>
                 </a>
             </div>
         </div>
-    </div>
-    <div>gallery</div>
-    <div>video</div>
-    <div>footer</div>
+    </section>
+
+    <figure aria-label="Photo Gallery">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 gallery-row">
+            <div class="col gallery-image"><img src="assets/images/home_gallery_1.jpg" class="img-fluid"
+                    alt="Batala Bangor at Portmeirion Festival No. 6"></div>
+            <div class="col gallery-image"><img src="assets/images/home_gallery_2.jpg" class="img-fluid"
+                    alt="Girl drumming"></div>
+            <div class="col gallery-image"><img src="assets/images/home_gallery_3.jpg" class="img-fluid"
+                    alt="Batala Bangor group photo by the sea"></div>
+            <div class="col gallery-image"><img src="assets/images/home_gallery_4.jpg" class="img-fluid"
+                    alt="Smiling drummers"></div>
+            <div class="col gallery-image"><img src="assets/images/home_gallery_5.jpg" class="img-fluid"
+                    alt="Man plays drum above his head"></div>
+            <div class="col gallery-image"><img src="assets/images/home_gallery_6.jpg" class="img-fluid"
+                    alt="Drummers with arms in the air"></div>
+        </div>
+    </figure>
+
+    <section>
+        <div class="container-fluid bg-col-dk video-section-container">
+            <div class="row" id="video-row">
+                <div class="col-10 offset-1 col-lg-10 offset-lg-1 txt-cent">
+                    <h3 class="bottom-margin-text">WATCH US IN ACTION!</h3>
+                    <div class="video-wrapper ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/l4y8UoNgOng"
+                            title="YouTube video player Batala Mundo at the start of Notting Hill Carnival 2018"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+    </section>
+
+    <footer class="container-fluid">
+
+        <div id="footer-links-wrapper">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/batala.bangor/" target="_blank">
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/batalabangor" target="_blank">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/batalabangor/" target="_blank">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.youtube.com/@batalabangor3194" target="_blank">
+                        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--<div id="footer-circle-wrapper">
+            <div id="footer-circle-inner"></div>
+            <div id="footer-circle-outer"></div>-->
+
+
+    </footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
