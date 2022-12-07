@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
 
+body,nav {
+    max-width: 2048px;
+    margin: 0 auto;
+    background: #d1d1d1;
+}
 
 /*-----------------------------------------------------------Colors */
 
@@ -84,15 +89,6 @@ figure {
     text-align: center;
 }
 
-.nav-brand:hover {
-    color: white;
-}
-
-.nav-link:hover {
-    color: white;
-    font-weight: 200;
-}
-
 #bb-logo {
     width: 60px;
     height: auto;
@@ -102,11 +98,20 @@ figure {
 .nav-item a {
     list-style: none;
     color: #d1d1d1;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .navbar-toggler {
     border: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    text-align: right;
+    padding: 10px 15px 10px 0;
 }
 
 .nav-behind {
@@ -209,10 +214,10 @@ figure {
     height: 80%;
     opacity: 40%;
     transform: scale(0.7);
-    transition: transform 0.25s ease-in-out;
-    -moz-transition: transform 0.25s ease-in-out;
-    -webkit-transition: transform 0.25s ease-in-out;
-    -o-transition: transform 0.25s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+    -moz-transition: transform 0.35s ease-in-out;
+    -webkit-transition: transform 0.35s ease-in-out;
+    -o-transition: transform 0.35s ease-in-out;
 }
 
 .line-circle-middle {
@@ -220,10 +225,10 @@ figure {
     height: 90%;
     opacity: 30%;
     transform: scale(0.7);
-    transition: transform 0.25s 0.05s ease-in-out;
-    -moz-transition: transform 0.25s 0.05s ease-in-out;
-    -webkit-transition: transform 0.25s 0.05s ease-in-out;
-    -o-transition: transform 0.25s 0.05s ease-in-out;
+    transition: transform 0.35s 0.05s ease-in-out;
+    -moz-transition: transform 0.35s 0.05s ease-in-out;
+    -webkit-transition: transform 0.35s 0.05s ease-in-out;
+    -o-transition: transform 0.35s 0.05s ease-in-out;
 }
 
 .line-circle-outer {
@@ -231,20 +236,14 @@ figure {
     height: 100%;
     opacity: 20%;
     transform: scale(0.7);
-    transition: transform 0.25s 0.1s ease-in-out;
-    -moz-transition: transform 0.25s 0.1s ease-in-out;
-    -webkit-transition: transform 0.25s 0.1s ease-in-out;
-    -o-transition: transform 0.25s 0.1s ease-in-out;
+    transition: transform 0.35s 0.1s ease-in-out;
+    -moz-transition: transform 0.35s 0.1s ease-in-out;
+    -webkit-transition: transform 0.35s 0.1s ease-in-out;
+    -o-transition: transform 0.35s 0.1s ease-in-out;
 }
 
 
-.white-circle:hover #find-out-more {
-    font-size: 100%;
-}
 
-.white-circle:hover ~ * {
-    transform: scale(1);
-}
 
 
 
@@ -292,17 +291,19 @@ footer {
     text-align: center;
     color: #282727;
     background: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background-color: #CB3737;
-}
 
-/*-----------------------------------------------------------Media Queries */
+
+/*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
 
 /* Small */
 
-@media(max-width: 575px) {
+@media (max-width: 575px), (max-height: 575px) {
     h1 {
         font-size: 48px;
     }
@@ -331,12 +332,23 @@ footer {
     }
 }
 
+/* Small landscape device */
+
+@media (max-height: 400px) {
+    .hero-text {
+        margin-bottom: 20px;
+    }
+}
+
 
 /* Medium */
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .nav-brand span {
         display: none;
+    }
+    .fixed-top {
+        position: absolute;
     }
 }
 
@@ -350,5 +362,30 @@ footer {
     .line-circle-middle,
     .line-circle-outer {
         transform: scale(1)
+    }
+}
+
+/* Disabling hover effect on touchscreen devices */
+
+@media(hover: hover) and (pointer: fine) {
+    .nav-brand:hover {
+        color: white;
+    }
+    
+    .nav-link:hover {
+        color: white;
+        font-weight: 200;
+    }
+
+    .white-circle:hover #find-out-more {
+        font-size: 100%;
+    }
+    
+    .white-circle:hover ~ * {
+        transform: scale(1);
+    }
+
+    .social-links li a i:hover {
+        background-color: #CB3737;
     }
 }
