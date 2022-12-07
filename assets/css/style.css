@@ -22,6 +22,10 @@ body {
     color: white;
 }
 
+p {
+    font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -98,8 +102,7 @@ figure {
 .nav-item a {
     list-style: none;
     color: #d1d1d1;
-    font-weight: 100;
-    font-size: 90%;
+    font-weight: 200;
 }
 
 .navbar-toggler {
@@ -165,17 +168,13 @@ figure {
     height: 70%;
     border-radius: 50%;
     border: none;
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
     z-index: 1;
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
-    transition: background-color 0.35s ease-in-out;
-    -moz-transition: background-color 0.35s ease-in-out;
-    -webkit-transition: background-color 0.35s ease-in-out;
-    -o-transition: background-color 0.35s ease-in-out;
 }
 
 .white-circle a {
@@ -188,7 +187,12 @@ figure {
     padding: 0;
     margin: 0;
     line-height: 120%;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 90%;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 .line-circle-inner,
@@ -198,7 +202,6 @@ figure {
     border-radius: 50%;
     position: absolute;
     z-index: 0;
-
 }
 
 .line-circle-inner {
@@ -235,13 +238,8 @@ figure {
 }
 
 
-.white-circle:hover {
-    background-color: #3a3a3a;
-}
-
 .white-circle:hover #find-out-more {
-    color: #ffffff;
-    font-weight: 300;
+    font-size: 100%;
 }
 
 .white-circle:hover ~ * {
@@ -279,6 +277,10 @@ footer {
     justify-content: center;
     position: absolute;
     top: 32px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
 }
 
 .social-links li a i {
@@ -335,5 +337,18 @@ footer {
 @media screen and (max-width: 767px) {
     .nav-brand span {
         display: none;
+    }
+}
+
+/* No Hover Devices */
+
+@media (hover: none) {
+    #find-out-more {
+        font-size: 100%;
+    }
+    .line-circle-inner,
+    .line-circle-middle,
+    .line-circle-outer {
+        transform: scale(1)
     }
 }
