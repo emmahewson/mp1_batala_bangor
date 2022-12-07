@@ -81,10 +81,14 @@ figure {
     opacity: 95%;
 }
 
+.navbar-dark {
+    --bs-navbar-hover-color: none;
+}
+
 .nav-brand {
     font-weight: 200;
     font-size: 24px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
 }
@@ -97,8 +101,13 @@ figure {
 
 .nav-item a {
     list-style: none;
-    color: #d1d1d1;
+    color: #ffffff;
     font-weight: 300;
+    opacity: 50%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .navbar-toggler {
@@ -111,7 +120,12 @@ figure {
 
 .nav-link {
     text-align: right;
-    padding: 10px 15px 10px 0;
+    padding: 25px 15px 25px 0;
+    --bs-navbar-nav-link-padding-x: 0.8rem;
+}
+
+.active-nl a {
+    opacity: 100%;
 }
 
 .nav-behind {
@@ -373,8 +387,7 @@ footer {
     }
     
     .nav-link:hover {
-        color: white;
-        font-weight: 200;
+        opacity: 100%;
     }
 
     .white-circle:hover #find-out-more {
