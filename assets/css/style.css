@@ -28,6 +28,10 @@ body {
 }
 
 p {
+    font-weight: 300;
+}
+
+.p-bigger {
     font-size: 18px;
 }
 
@@ -63,16 +67,25 @@ h3 {
     text-align: center;
 }
 
-.bottom-margin-text {
-    margin-bottom: 60px;
+.txt-left {
+    text-align: left;
 }
 
 
-/*-----------------------------------------------------------Containers */
+/*-----------------------------------------------------------Containers / Dividers */
 
 .row,
 figure {
     margin: 0;
+}
+
+.buffer {
+    height: 100px;
+    width: 100%;
+}
+
+.container-fluid-nopad {
+    padding: 0;
 }
 
 /*-----------------------------------------------------------Nav */
@@ -136,7 +149,7 @@ figure {
 
 /*-----------------------------------------------------------Hero */
 
-.hero-bg-container {
+#hero-home {
     padding: 0;
     height: 90vh;
     background:
@@ -152,22 +165,66 @@ figure {
     position: relative;
 }
 
+#hero-about {
+    padding: 0;
+    height: 35vh;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
+        url("../images/hero_about.jpg");
+    background-color: #282727;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
 .hero-text {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 60px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-/*-----------------------------------------------------------Text Section */
+.hero-text-lg {
+    margin-bottom: 50px;
+}
+
+
+
+/*-----------------------------------------------------------Home Text Section */
 
 .text-section-container {
     padding: 200px 0px;
 }
 
+
+/*-----------------------------------------------------------About Us */
+
+.about-title {
+    margin-bottom: 30px;
+}
+
+.about-text {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#about-img-top {
+    background-image :url("../images/about_band.jpg");
+    background-color: #282727;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 700px;
+}
 
 /*-----------------------------------------------------------Buttons */
 
@@ -180,6 +237,7 @@ figure {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 60px;
 }
 
 .white-circle {
@@ -275,6 +333,10 @@ figure {
     padding: 100px 0px;
 }
 
+.video-wrapper {
+    margin-top: 60px;
+}
+
 
 /*-----------------------------------------------------------Footer */
 
@@ -315,7 +377,53 @@ footer {
 
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
 
-/* Small */
+
+
+
+/* Below Large */
+
+@media (max-width: 991px) {
+    #about-img-top {
+        min-height: 500px;
+    }
+
+    .about-text {
+        text-align: center;
+        margin: 100px 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .buffer {
+        display: none;
+    }
+}
+
+/* Below Medium */
+
+@media (max-width: 767px) {
+    .nav-brand span {
+        display: none;
+    }
+    .fixed-top {
+        position: absolute;
+    }
+    
+    .about-text {
+        text-align: center;
+        margin: 60px 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about-title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+}
+
+/* Below Small */
 
 @media (max-width: 575px), (max-height: 575px) {
     h1 {
@@ -344,6 +452,7 @@ footer {
     .text-section-container {
         padding: 100px 0px;
     }
+
 }
 
 /* Small landscape device */
@@ -351,18 +460,6 @@ footer {
 @media (max-height: 400px) {
     .hero-text {
         margin-bottom: 20px;
-    }
-}
-
-
-/* Medium */
-
-@media (max-width: 767px) {
-    .nav-brand span {
-        display: none;
-    }
-    .fixed-top {
-        position: absolute;
     }
 }
 

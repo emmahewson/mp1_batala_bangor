@@ -13,52 +13,53 @@
 
 </head>
 
-
 <body>
-
     <header>
+        <!-- Nav Bar -->
         <nav class="navbar navbar-dark bg-col-navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
                 <a href="#" class="nav-brand">
                     <img src="assets/images/bb_logo_200.png" alt="Batala Bangor Logo" id="bb-logo">
                     <span>BATALA BANGOR</span>
                 </a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="active-nl nav-item"><a class="nav-link" href="#">HOME</a></li>
+                        <li class="active-nl nav-item"><a class="nav-link" href="index.html">HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="about-us.html">ABOUT US</a></li>
                         <li class="nav-item"><a class="nav-link" href="book-us.html">BOOK US</a></li>
                         <li class="nav-item"><a class="nav-link" href="join-us.html">JOIN US</a></li>
-
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="nav-behind"></div>
+        <!--/ Nav Bar -->
     </header>
 
     <main>
-        <div class="hero-bg-container">
+        <!-- Hero -->
+        <div id="hero-home">
             <div>
-                <div class="hero-text txt-cent">
+                <div class="hero-text hero-text-lg txt-cent">
                     <h1>BATALA BANGOR</h1>
                     <h2>SAMBA REGGAE DRUMMING BAND<br>NORTH WALES</h2>
                 </div>
             </div>
         </div>
+        <!--/ Hero -->
 
+        <!-- Text Section -->
         <div class="container-fluid text-section-container bg-col-red">
-            <div class="row" id="batala-hey-row">
-                <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 txt-cent bottom-margin-text">
+            <!-- Welcome Text -->
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 txt-cent">
                     <h3>BATALA HEY!</h3>
-                    <p>We are Batala Bangor, a vibrant Samba-Reggae Percussion band full of energy and uplifting spirit!
+                    <p class="p-bigger">We are Batala Bangor, a vibrant Samba-Reggae Percussion band full of energy and uplifting spirit!
                         We
                         play
                         at carnivals, festivals, fairs and private events across North Wales, the UK and around the
@@ -67,10 +68,13 @@
                     <p>We bring energy, noise and fun to any event!</p>
                 </div>
             </div>
+            <!--/ Welcome Text -->
+
+            <!-- Button: Find Out More -->
             <div class="circle-button-row">
                 <div class="col circle-button-lrg">
-                    <button class="white-circle">
-                        <a href="#">
+                    <button class="white-circle" type="button">
+                        <a href="about-us.html">
                             <p class="button-text txt-cent" id="find-out-more">FIND OUT MORE</p>
                         </a>
                     </button>
@@ -79,9 +83,11 @@
                     <div class="line-circle-outer"></div>
                 </div>
             </div>
-
+            <!--/ Button: Find Out More -->
         </div>
+        <!--/ Text Section -->
 
+        <!-- Photo Gallery -->
         <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 gallery-row">
             <h3 class="sr-only">Photo Gallery</h3>
             <div class="col gallery-image"><img src="assets/images/home_gallery_1.jpg" class="img-fluid"
@@ -97,11 +103,13 @@
             <div class="col gallery-image"><img src="assets/images/home_gallery_6.jpg" class="img-fluid"
                     alt="Drummers with arms in the air"></div>
         </div>
+        <!--/ Photo Gallery -->
 
+        <!-- Video -->
         <div class="container-fluid bg-col-dk video-section-container">
             <div class="row" id="video-row">
                 <div class="col-10 offset-1 col-lg-10 offset-lg-1 txt-cent">
-                    <h3 class="bottom-margin-text">WATCH US IN ACTION!</h3>
+                    <h3>WATCH US IN ACTION!</h3>
                     <div class="video-wrapper ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/l4y8UoNgOng"
                             title="YouTube video player Batala Mundo at the start of Notting Hill Carnival 2018"
@@ -109,7 +117,11 @@
                             allowfullscreen></iframe>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!--/ Video -->
     </main>
+
     <footer>
         <div id="footer-links-wrapper">
             <ul class="list-inline social-links">
@@ -139,18 +151,12 @@
                 </li>
             </ul>
         </div>
-        <!--<div id="footer-circle-wrapper">
-            <div id="footer-circle-inner"></div>
-            <div id="footer-circle-outer"></div>-->
-
-
     </footer>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>
