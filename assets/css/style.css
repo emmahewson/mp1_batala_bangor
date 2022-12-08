@@ -71,6 +71,10 @@ h3 {
     text-align: left;
 }
 
+.txt-right {
+    text-align: right;
+}
+
 
 /*-----------------------------------------------------------Containers / Dividers */
 
@@ -214,16 +218,34 @@ figure {
     padding-left: 5%;
 }
 
-#about-img-top {
-    background-image :url("../images/about_band.jpg");
+
+.about-img {
     background-color: #282727;
-    background-position: center top;
+
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 700px;
+}
+
+#about-img-top {
+    background-image :url("../images/about_band.jpg");
+    border-radius: 0% 10% 10% 0;
+    background-position: center top;
+}
+
+#about-img-middle {
+    background-image :url("../images/about_music.jpg");
+    border-radius: 10% 0% 0% 10%;
+    background-position: center;
+}
+
+#about-img-bottom {
+    background-image :url("../images/about_mundo.jpg");
+    border-radius: 0% 10% 10% 0;
+    background-position: center;
 }
 
 /*-----------------------------------------------------------Buttons */
@@ -383,9 +405,6 @@ footer {
 /* Below Large */
 
 @media (max-width: 991px) {
-    #about-img-top {
-        min-height: 500px;
-    }
 
     .about-text {
         text-align: center;
@@ -397,6 +416,15 @@ footer {
     .buffer {
         display: none;
     }
+
+    #about-img-top,
+    #about-img-middle,
+    #about-img-bottom {
+        border-radius: 0;
+        min-height: 500px;
+        max-height: 500px;
+    }
+
 }
 
 /* Below Medium */
@@ -453,13 +481,17 @@ footer {
         padding: 100px 0px;
     }
 
+    .hero-text-sm {
+        bottom: 10px;
+    }
+
 }
 
 /* Small landscape device */
 
 @media (max-height: 400px) {
-    .hero-text {
-        margin-bottom: 20px;
+    .hero-text-sm {
+        bottom: 0px;
     }
 }
 
