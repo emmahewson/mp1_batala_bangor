@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
 
-body,nav {
+body,
+nav {
     max-width: 2048px;
     margin: 0 auto;
     background: #d1d1d1;
@@ -56,11 +57,6 @@ h2 {
 h3 {
     font-weight: 700;
     font-size: 36px;
-}
-
-.button-text {
-    font-family: 'Fira Sans', sans-serif;
-    color: #282727;
 }
 
 .txt-cent {
@@ -198,14 +194,11 @@ figure {
     margin-bottom: 50px;
 }
 
-
-
 /*-----------------------------------------------------------Home Text Section */
 
 .text-section-container {
     padding: 200px 0px;
 }
-
 
 /*-----------------------------------------------------------About Us */
 
@@ -218,10 +211,8 @@ figure {
     padding-left: 5%;
 }
 
-
 .about-img {
     background-color: #282727;
-
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -231,21 +222,49 @@ figure {
 }
 
 #about-img-top {
-    background-image :url("../images/about_band.jpg");
+    background-image: url("../images/about_band.jpg");
     border-radius: 0% 10% 10% 0;
     background-position: center top;
 }
 
 #about-img-middle {
-    background-image :url("../images/about_music.jpg");
+    background-image: url("../images/about_music.jpg");
     border-radius: 10% 0% 0% 10%;
     background-position: center;
 }
 
 #about-img-bottom {
-    background-image :url("../images/about_mundo.jpg");
+    background-image: url("../images/about_mundo.jpg");
     border-radius: 0% 10% 10% 0;
     background-position: center;
+}
+
+#need-drum-container {
+    padding: 100px 0px 60px 0;
+}
+
+#cta-join-text {
+    width: 35%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+#cta-join-text a {
+    color: #d1d1d1;
+    text-underline-offset: 5px;
+}
+
+#small-link-text {
+    padding: 20px 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    opacity: 70%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
 }
 
 /*-----------------------------------------------------------Buttons */
@@ -259,7 +278,15 @@ figure {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+#find-out-more-btn {
     margin-top: 60px;
+}
+
+#book-us-btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .white-circle {
@@ -272,6 +299,7 @@ figure {
     z-index: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
@@ -282,22 +310,34 @@ figure {
     padding: 30px 0px;
 }
 
-#find-out-more {
-    padding: 0;
+
+.button-text {
+    font-family: 'Fira Sans', sans-serif;
+    color: #282727;
     margin: 0;
     line-height: 120%;
     font-weight: 500;
-    font-size: 90%;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
 }
 
+#book-us-btn-text {
+    font-size: 110%;
+}
+
+.line-circle-dark {
+    border: 2px solid #282727;
+}
+
+.line-circle-light {
+    border: 2px solid #ffffff;
+}
+
 .line-circle-inner,
 .line-circle-middle,
 .line-circle-outer {
-    border: 2px solid #282727;
     border-radius: 50%;
     position: absolute;
     z-index: 0;
@@ -395,11 +435,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
-
-
 
 
 /* Below Large */
@@ -424,7 +460,6 @@ footer {
         min-height: 500px;
         max-height: 500px;
     }
-
 }
 
 /* Below Medium */
@@ -433,10 +468,11 @@ footer {
     .nav-brand span {
         display: none;
     }
+
     .fixed-top {
         position: absolute;
     }
-    
+
     .about-text {
         text-align: center;
         margin: 60px 0;
@@ -448,12 +484,13 @@ footer {
         font-size: 30px;
         font-weight: 500;
     }
-    
+
 }
 
 /* Below Small */
 
-@media (max-width: 575px), (max-height: 575px) {
+@media (max-width: 575px),
+(max-height: 575px) {
     h1 {
         font-size: 48px;
     }
@@ -485,6 +522,15 @@ footer {
         bottom: 10px;
     }
 
+    #need-drum-container {
+        padding: 60px 0px 10px 0;
+    }
+
+    #book-us-btn {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
 }
 
 /* Small landscape device */
@@ -501,6 +547,7 @@ footer {
     #find-out-more {
         font-size: 100%;
     }
+
     .line-circle-inner,
     .line-circle-middle,
     .line-circle-outer {
@@ -514,16 +561,20 @@ footer {
     .nav-brand:hover {
         color: white;
     }
-    
+
     .nav-link:hover {
+        opacity: 100%;
+    }
+
+    #small-link-text:hover {
         opacity: 100%;
     }
 
     .white-circle:hover #find-out-more {
         font-size: 100%;
     }
-    
-    .white-circle:hover ~ * {
+
+    .white-circle:hover~* {
         transform: scale(1);
     }
 
