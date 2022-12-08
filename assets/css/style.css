@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
 
+
+/*----------------------------------------------------------- Page Container Settings */
+
+
 body,
 nav {
     max-width: 2048px;
@@ -72,7 +76,7 @@ h3 {
 }
 
 
-/*-----------------------------------------------------------Containers / Dividers */
+/*-----------------------------------------------------------Containers / Dividers / Generic Margins */
 
 .row,
 figure {
@@ -86,6 +90,10 @@ figure {
 
 .container-fluid-nopad {
     padding: 0;
+}
+
+.section-title {
+    margin-bottom: 30px;
 }
 
 /*-----------------------------------------------------------Nav */
@@ -182,6 +190,40 @@ figure {
     position: relative;
 }
 
+#hero-book {
+    padding: 0;
+    height: 35vh;
+    min-height: 200px;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
+        url("../images/hero_book.jpg");
+    background-color: #282727;
+    background-position: center top 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+#hero-join {
+    padding: 0;
+    height: 35vh;
+    min-height: 200px;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
+        url("../images/hero_join.jpg");
+    background-color: #282727;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
 .hero-text {
     position: absolute;
     bottom: 40px;
@@ -203,9 +245,6 @@ figure {
 
 /*-----------------------------------------------------------About Us */
 
-.about-title {
-    margin-bottom: 30px;
-}
 
 .about-text {
     padding-right: 5%;
@@ -266,6 +305,17 @@ figure {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 
+}
+
+/*-----------------------------------------------------------Join */
+
+.join-text {
+    padding-right: 5%;
+    padding-left: 10%;
+}
+
+.h2-small {
+    font-size: 20px;
 }
 
 /*-----------------------------------------------------------Buttons */
@@ -376,11 +426,6 @@ figure {
     -webkit-transition: transform 0.35s 0.1s ease-in-out;
     -o-transition: transform 0.35s 0.1s ease-in-out;
 }
-
-
-
-
-
 
 /*-----------------------------------------------------------Gallery & Video */
 
