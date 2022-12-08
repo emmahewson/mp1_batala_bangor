@@ -470,6 +470,11 @@ footer {
         display: none;
     }
 
+    .nav-item a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
     .fixed-top {
         position: absolute;
     }
@@ -513,7 +518,7 @@ footer {
     }
 
     #hero-home {
-        height: 80vh;
+        height: 75vh;
     }
 
     .text-section-container {
