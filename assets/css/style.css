@@ -168,6 +168,7 @@ figure {
 #hero-about {
     padding: 0;
     height: 35vh;
+    min-height: 200px;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
         url("../images/hero_about.jpg");
@@ -264,7 +265,7 @@ figure {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    
+
 }
 
 /*-----------------------------------------------------------Buttons */
@@ -504,18 +505,23 @@ footer {
     }
 
     #bb-logo {
-        width: 40px;
-        height: auto;
         margin: 0px 0px 0px 0px;
     }
 
     .nav-behind {
-        height: 56px;
+        height: 76px;
+    }
 
+    #hero-home {
+        height: 80vh;
     }
 
     .text-section-container {
         padding: 100px 0px;
+    }
+
+    .hero-text-lg {
+        bottom: 0;
     }
 
     .hero-text-sm {
