@@ -226,15 +226,18 @@ figure {
 
 .hero-text {
     position: absolute;
-    bottom: 40px;
     width: 100%;
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
 }
 
+.hero-text-sm {
+    bottom: 40px;
+}
+
 .hero-text-lg {
-    margin-bottom: 50px;
+    bottom: 90px;
 }
 
 /*-----------------------------------------------------------Home Text Section */
@@ -283,6 +286,11 @@ figure {
     padding: 100px 0px 60px 0;
 }
 
+#need-drum-text {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 #cta-join-text {
     width: 35%;
     min-width: 200px;
@@ -290,21 +298,19 @@ figure {
 }
 
 #cta-join-text a {
-    color: #d1d1d1;
+    color: #ffffff;
     text-underline-offset: 5px;
-}
-
-#small-link-text {
     padding: 20px 10px;
     font-family: 'Fira Sans', sans-serif;
-    color: #ffffff;
     font-weight: 300;
-    opacity: 70%;
+}
+
+.link-text {
+    opacity: 60%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
 
 /*-----------------------------------------------------------Join */
@@ -324,11 +330,11 @@ figure {
 .circle-button-lrg {
     width: 140px;
     height: 140px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
 }
 
 #find-out-more-btn {
@@ -361,21 +367,17 @@ figure {
     padding: 30px 0px;
 }
 
-
 .button-text {
     font-family: 'Fira Sans', sans-serif;
     color: #282727;
     margin: 0;
     line-height: 120%;
     font-weight: 500;
+    font-size: 100%;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
-}
-
-#book-us-btn-text {
-    font-size: 110%;
 }
 
 .line-circle-dark {
@@ -483,7 +485,6 @@ footer {
 
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
 
-
 /* Below Large */
 
 @media (max-width: 991px) {
@@ -571,11 +572,16 @@ footer {
     }
 
     .hero-text-lg {
-        bottom: 0;
+        bottom: 50px;
     }
 
     .hero-text-sm {
-        bottom: 10px;
+        bottom: 20px;
+    }
+
+    #video-row {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #need-drum-container {
@@ -586,7 +592,6 @@ footer {
         margin-top: 10px;
         margin-bottom: 30px;
     }
-
 }
 
 /* Small landscape device */
@@ -600,10 +605,6 @@ footer {
 /* No Hover Devices */
 
 @media (hover: none) {
-    #find-out-more {
-        font-size: 100%;
-    }
-
     .line-circle-inner,
     .line-circle-middle,
     .line-circle-outer {
@@ -611,29 +612,24 @@ footer {
     }
 }
 
-/* Disabling hover effect on touchscreen devices */
+/* Hover Effects - Disabled on touchscreen devices */
 
 @media(hover: hover) and (pointer: fine) {
     .nav-brand:hover {
         color: white;
     }
-
     .nav-link:hover {
         opacity: 100%;
     }
-
-    #small-link-text:hover {
+    .link-text:hover {
         opacity: 100%;
     }
-
-    .white-circle:hover #find-out-more {
-        font-size: 100%;
+    .white-circle:hover .button-text {
+        font-size: 110%;
     }
-
     .white-circle:hover~* {
         transform: scale(1);
     }
-
     .social-links li a i:hover {
         background-color: #CB3737;
     }
