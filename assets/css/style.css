@@ -319,7 +319,7 @@ figure {
     padding: 100px 7% 100px 7%;
 }
 
-.join-text {
+.form-text-block {
     padding-right: 5%;
 }
 
@@ -327,7 +327,7 @@ figure {
     font-size: 20px;
 }
 
-.join-text p a {
+.form-text-block p a {
     color: #ffffff;
     font-weight: 600;
     text-underline-offset: 3px;
@@ -337,8 +337,11 @@ figure {
 /*----------------------------------------------------------- Form */
 
 .form {
-    margin-top: 75px;
     padding-left: 5%;
+}
+
+#join-form-container {
+    margin-top: 75px;
 }
 
 .form-title {
@@ -346,21 +349,35 @@ figure {
 }
 
 .form-input-text,
-.form-input-textarea {
+.form-input-textarea,
+.form-input-date {
     width: 100%;
     border-radius: 5px;
     border: none;
     margin-bottom: 15px;
+    padding-left: 10px;
+    color: #3a3a3a;
 }
 
-.form-input-text {
+.form-input-text,
+.form-input-date {
     margin-top: 5px;
 }
 
 .form-input-textarea {
-    color: #3a3a3a;
-    padding: 10px;
     margin-top: 20px;
+    padding: 10px;
+    height: 160px;
+}
+
+.form-input-date {
+    height: 26px;
+    border: none;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #282727;
 }
 
 /*-----------------------------------------------------------Buttons */
@@ -400,7 +417,7 @@ figure {
     font-size: 85%;
 }
 
-#join-form-submit {
+.submit-btn-txt {
     border: none;
     background-color: transparent;
 }
@@ -564,6 +581,44 @@ footer {
         min-height: 500px;
         max-height: 500px;
     }
+
+    .form-container {
+        padding: 60px 10% 100px 10%;
+    }
+
+    .form {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    #join-form-container {
+        margin-top: 0;
+    }
+
+    .form-title {
+        margin-bottom: 60px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .lg-only {
+        display: none;
+    }
+
+    .form-text-block {
+        padding: 0;
+        text-align: center;
+    }
+
+    #submit-btn {
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .form-input-textarea {
+        height: 250px;
+    }
+
 }
 
 /* Below Medium */
@@ -613,7 +668,7 @@ footer {
     }
 
     #bb-logo {
-        margin: 0px 0px 0px 0px;
+        margin: 3px 0px 3px 0px;
     }
 
     .nav-behind {
@@ -648,6 +703,15 @@ footer {
     #book-us-btn {
         margin-top: 10px;
         margin-bottom: 30px;
+    }
+
+    .form-container {
+        padding: 40px 5% 60px 5%;
+    }
+
+    .form-title {
+        margin-bottom: 40px;
+        font-size: 24px;
     }
 }
 
