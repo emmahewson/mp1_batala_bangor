@@ -51,10 +51,9 @@
         <!--/ Hero -->
 
         <!-- Join Info & Form -->
-        <div class="container-fluid bg-col-red container-fluid-nopad">
-            <div class="buffer"></div>
+        <div class="container-fluid bg-col-red form-container">
             <div class="row">
-                <div class="col-lg-6 order-last order-lg-first txt-left join-text">
+                <div class="col-lg-6 txt-left join-text">
                     <h3 class="section-title">JOIN BATALA BANGOR!</h3>
                     <p>We hold beginners' sessions for new players once or twice a year.
                     </p>
@@ -70,12 +69,31 @@
                     <p>If you're interested in joining fill in the form or email
                         <a href="mailto: bookings@batalabangor.com">bookings@batalabangor.com</a></p>
                 </div>
-                <div class="col-lg-6 txt-left">
-                    <h2 class="h2-small">REGISTER YOUR INTEREST IN JOINING BATALA BANGOR</h2>
+                <div class="col-lg-6 txt-left order-first order-lg-last form">
+                    <section class>
+                        <form method="get" action="thankyou.html">
+                            <h2 class="h2-small form-title">REGISTER YOUR INTEREST IN JOINING BATALA BANGOR</h2>
+                            <label for="join-form-name">Full Name</label>
+                            <input id="join-form-name" class="form-input-text" type="text" name="name" required>
+                            <label for="join-form-email">Email Address</label>
+                            <input id="join-form-email" class="form-input-text" type="email" name="email" required>
+                            <textarea id="join-form-textarea" class="form-input-textarea" name="experience-info"
+                                rows="5">Tell us about your drumming or musical experience (beginners are welcome)</textarea>
+                            <!-- Button: Find Out More -->
+                            <div class="circle-button-sm" id="submit-btn">
+                                <button class="white-circle" type="button">
+                                    <input type="submit" value="SUBMIT" class="button-text txt-cent"
+                                        id="join-form-submit">
+                                </button>
+                                <div class="line-circle-inner line-circle-dark"></div>
+                                <div class="line-circle-middle line-circle-dark"></div>
+                                <div class="line-circle-outer line-circle-dark"></div>
+                            </div>
+                            <!--/ Button: Find Out More -->
+                        </form>
+                    </section>
                 </div>
-
             </div>
-            <div class="buffer"></div>
         </div>
         <!--/ Join Info & Form -->
 

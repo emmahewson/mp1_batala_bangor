@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300;600&display=swap');
 
 
 /*----------------------------------------------------------- Page Container Settings */
@@ -315,26 +315,74 @@ figure {
 
 /*-----------------------------------------------------------Join */
 
+.form-container {
+    padding: 100px 7% 100px 7%;
+}
+
 .join-text {
     padding-right: 5%;
-    padding-left: 10%;
 }
 
 .h2-small {
     font-size: 20px;
 }
 
+.join-text p a {
+    color: #ffffff;
+    font-weight: 600;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.5px;
+}
+
+/*----------------------------------------------------------- Form */
+
+.form {
+    margin-top: 75px;
+    padding-left: 5%;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-input-text,
+.form-input-textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.form-input-text {
+    margin-top: 5px;
+}
+
+.form-input-textarea {
+    color: #3a3a3a;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 /*-----------------------------------------------------------Buttons */
 
+
+.circle-button-lrg,
+.circle-button-sm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .circle-button-lrg {
     width: 140px;
     height: 140px;
     margin: 0 auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.circle-button-sm {
+    width: 92px;
+    height: 92px;
 }
 
 #find-out-more-btn {
@@ -344,6 +392,17 @@ figure {
 #book-us-btn {
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+#submit-btn {
+    position: relative;
+    right: 15px;
+    font-size: 85%;
+}
+
+#join-form-submit {
+    border: none;
+    background-color: transparent;
 }
 
 .white-circle {
@@ -373,7 +432,6 @@ figure {
     margin: 0;
     line-height: 120%;
     font-weight: 500;
-    font-size: 100%;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -446,7 +504,6 @@ figure {
 .video-wrapper {
     margin-top: 60px;
 }
-
 
 /*-----------------------------------------------------------Footer */
 
