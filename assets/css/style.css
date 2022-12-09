@@ -92,10 +92,6 @@ figure {
     padding: 0;
 }
 
-.section-title {
-    margin-bottom: 30px;
-}
-
 /*-----------------------------------------------------------Nav */
 
 .navbar {
@@ -246,8 +242,15 @@ figure {
     padding: 200px 0px;
 }
 
+#batala-hey-title {
+    margin-bottom: 30px;
+}
+
 /*-----------------------------------------------------------About Us */
 
+.about-section-title {
+    margin-bottom: 30px;
+}
 
 .about-text {
     padding-right: 5%;
@@ -291,6 +294,10 @@ figure {
     padding-right: 5%;
 }
 
+#need-drum-title {
+    margin-bottom: 10px;
+}
+
 #cta-join-text {
     width: 35%;
     min-width: 200px;
@@ -313,10 +320,14 @@ figure {
     -o-transition: all 0.35s ease-in-out;
 }
 
-/*-----------------------------------------------------------Join */
+/*-----------------------------------------------------------Join / Book */
 
 .form-container {
     padding: 100px 7% 100px 7%;
+}
+
+.form-text-title {
+    margin-bottom: 30px;
 }
 
 .form-text-block {
@@ -333,6 +344,7 @@ figure {
     text-underline-offset: 3px;
     text-decoration-thickness: 0.5px;
 }
+
 
 /*----------------------------------------------------------- Form */
 
@@ -380,8 +392,36 @@ textarea:focus {
     outline-color: #282727;
 }
 
-/*-----------------------------------------------------------Buttons */
+/*-----------------------------------------------------------Testimonials */
 
+#testimonial-container {
+    padding: 100px 2% 60px 2%;
+}
+
+#testimonial-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testi-single {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.testi-img {
+    margin-right: 30px;
+}
+
+.testi-left-col {
+    margin-right: 30px;
+}
+
+.testi-right-col {
+    margin-left: 30px;
+}
+
+/*-----------------------------------------------------------Buttons */
 
 .circle-button-lrg,
 .circle-button-sm {
@@ -582,8 +622,9 @@ footer {
         max-height: 500px;
     }
 
-    .form-container {
-        padding: 60px 10% 100px 10%;
+    .form-container,
+    #testimonial-container {
+        padding: 100px 10% 60px 10%;
     }
 
     .form {
@@ -598,7 +639,8 @@ footer {
     .form-title {
         margin-bottom: 60px;
         text-align: center;
-        font-size: 24px;
+        font-size: 30px;
+        font-weight: 700;
     }
 
     .lg-only {
@@ -619,6 +661,25 @@ footer {
         height: 250px;
     }
 
+    .testi-single {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testi-img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .testi-left-col {
+        margin-right: 0px;
+    }
+    
+    .testi-right-col {
+        margin-left: 0px;
+    }
 }
 
 /* Below Medium */
@@ -706,13 +767,18 @@ footer {
     }
 
     .form-container {
-        padding: 40px 5% 60px 5%;
+        padding: 60px 5% 60px 5%;
     }
 
     .form-title {
         margin-bottom: 40px;
-        font-size: 24px;
     }
+
+    #testimonial-container {
+        padding: 60px 5% 30px 5%;
+    }
+
+
 }
 
 /* Small landscape device */
