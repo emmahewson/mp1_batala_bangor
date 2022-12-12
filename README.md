@@ -6,17 +6,17 @@
 
 [Click here to view the live web application](https://emmahewson.github.io/mp1_batala_bangor/index.html)
 
-**BATALA HEY!**
-This is the documentation for Batala Bangor’s new website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Diploma in Web Application Development Course.
+**BATALA HEY!** This is the documentation for Batala Bangor’s new website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Diploma in Web Application Development Course.
 
 
-## **Table of Contents**
+## Table of Contents
 
 1. [Project Goals](#project-goals)
     * [Client Goals](#client-goals)
+    
 
 
-## **Project Development & Planning**
+## Project Development & Planning
 
 I followed the principles of User Experience (UX) in the planning and development of my website, including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
 
@@ -26,14 +26,14 @@ I followed the principles of User Experience (UX) in the planning and developmen
 #### Client background
 Batala Bangor is a samba reggae drumming group based in North Wales. Each summer the band perform at carnivals, fairs, festivals and events across North Wales and beyond. Anyone can join and no experience is required. The music that Batala Bangor plays originates in Salvador, Brazil, and Batala Bangor is one of over 40 Batala bands worldwide who all play the same rhythms and meet up regularly for international events.
 
-#### **Client Goals**
+#### Client Goals
 
 * For the band to get booked for more / better events
 * To have a more professional appearance
 * To attract new members
 * To share information about our band, our music and the global Batala community
 
-#### **User Goals**
+#### User Goals
 
 The website will be for different types of users with different motivations and goals [further details below](#user-stories):
 * An event organiser looking to book the band
@@ -41,19 +41,19 @@ The website will be for different types of users with different motivations and 
 * Fans of the band interested in learning more about them
 
 
-### **Research**
+### Research
 
-#### **Market Review**
+#### Market Review
 
 I conducted a market review which included other bands in North Wales, drumming groups and other Batala bands across the UK (links below). I looked at their websites & social media accounts, how they presented and promoted themselves, what content and features they offered, how it was laid out, what worked and what didn’t.
 
 [Bloco Swn](https://colindaimond.co.uk/) | [Cowbois Celtaidd](https://www.reverbnation.com/cowboisceltaidd) | [Katumba](https://katumba.co.uk/) | [Batala Mersey](https://www.batalamersey.com/) | [Batala Portsmouth](https://www.batalaportsmouth.com/home) | [Batala Bermo](https://www.batalabermo.co.uk/)
 
-#### **Existing Product Audit**
+#### Existing Product Audit
 
 [Batala Bangor](http://www.batalabangor.com/) has an existing website that is in need of updating. I did a full review of the site, what worked well, what needed updating, what was missing and a general assessment of the content, features, design, layout and style.
 
-#### **Key Takeaways from Market Review & Existing Project Audit**
+#### Key Takeaways from Market Review & Existing Project Audit
 * Who, what & where the band is should be immediately obvious
 * Keep it clean and simple
 * Keep text short and impactful
@@ -64,39 +64,39 @@ I conducted a market review which included other bands in North Wales, drumming 
 * Make sure nav and social media links are accessible and easy to find
 
 
-### **User Stories**
+### User Stories
 
-**User Story 1: An event organiser interested in booking the band**
-* Find out information about the band
-* See & hear media content of the band performing
-* See feedback from previous events
-* Links to social media for more information and content
-* Contact the band to find out more & book
+**User Story 1: As an event organiser interested in booking the band I want to:**
+* find out information about the band
+* see & hear media content of the band performing
+* see feedback from previous events
+* find links to social media for more information and content
+* contact the band to find out more & to enquire about booking
 
-**User Story 2: An individual interested in joining the band**
-* Find out general information about the band and music
-* See & hear media content of the band performing
-* Interact with the band (social media links)
-* Find out about opportunities for members
-* Find out about commitment & experience required to join
-* Contact the band to express an interest in joining
+**User Story 2: As someone interested in joining the band I want to:**
+* find out general information about the band and music
+* see & hear media content of the band performing
+* find social media link to interact with the band
+* find out about opportunities for members
+* find out about commitment & experience required to join
+* contact the band to express an interest in joining
 
-**User Story 3: A fan of the band**
-* General information about the band and music
-* See & hear the band performing
-* Interact with the band and find out more (via social media links)
+**User Story 3: As a fan of the band I want to:**
+* find out general information about the band and the music
+* see & hear the band performing
+* find social media link to interact with the band and find out about future events
 
 Based on my earlier research and by defining my user stories I was able to create a clear scope for the website to keep the project on track and to avoid scope creep later on. As this was my first web development project I put a lot of focus in to having a concrete scope from the beginning.
 
 
-### **Design, Layout & Structure**
+### Design, Layout & Structure
 
 I chose to have a bright, clean, bold design using the Batala colours of red, white and black, with lots of visual content such as large eye-catching images.
 
 To develop how the site would look I went through 2 stages of design, a wireframe to create the site structure and layout and then a full site mockup including colours, fonts, photos etc.
 
 
-#### **Wireframes**
+#### Wireframes
 
 I used Balsamiq to create the initial wireframes.
 
@@ -114,7 +114,7 @@ I used Balsamiq to create the initial wireframes.
 </details>
 
 
-#### **Full Site Mockup**
+#### Full Site Mockup
 
 I decided to create a fully designed site in Figma before moving on to coding. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
 
@@ -132,7 +132,7 @@ I decided to create a fully designed site in Figma before moving on to coding. A
 </details>
 
 
-#### **Structure**
+#### Structure
 
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could.
 
@@ -151,25 +151,25 @@ The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis g
 ![Find Out More Button]()
 ![Book Us / Join Link]()
 
-#### **Colour**
+#### Colour
 
 I chose to use muted versions of the Batala brand colours of black, white and red as using a full primary red and 100% black was quite garish and hard on the eyes. This helped to keep the site bright, friendly and bold.
 
 ![Colour Pallette]()
 
 
-#### **Fonts**
+#### Fonts
 
 I imported Google Fonts and used Poppins (with a fallback of Sans Serif) for the main body text. I felt this had a friendly, rounded shape that suited the site design, good legibility and a range of weights. I used Fira Sans (with a fallback of Sans Serif) for the headings. I chose it because it had good contrast with the body font and had a strong bold look to have good legibility over images as well as a contrasting thin versions which would make it flexible for different heading types.
 
 
-## **Technologies Used**
+## Technologies Used
 
-### **Languages**
+### Languages
 * HTML
 * CSS
 
-### **Tools**
+### Tools
 * Git
     * Used for version control via GitPod by using the terminal to Git and Push to GitHub
 * GitHub
@@ -194,96 +194,106 @@ I imported Google Fonts and used Poppins (with a fallback of Sans Serif) for the
     * Used to add icons to the site to help with UX and to add more character
 
 
-## **Features**
+## Features
 
-### **All Pages**
+### All Pages
 
-#### **Nav Bar**
+#### Nav Bar
 
-### **Hero Image**
+### Hero Image
 
-#### **Footer**
-
-
-### **Home**
-
-#### **Short Bio**
-
-#### **Find Out More Button**
-
-#### **Photo Gallery**
-
-#### **Video**
+#### Footer
 
 
-### **About Us**
+### Home
 
-#### **About Us Info Text & Images**
+#### Short Bio
 
-#### **Call To Action**
+#### Find Out More Button
 
+#### Photo Gallery
 
-### **Book Us**
-
-#### **Book Us Info Text**
-
-#### **Booking Enquiry Form**
+#### Video
 
 
-### **Join Us**
+### About Us
 
-#### **Join Us Info Text**
+#### About Us Info Text & Images
 
-#### **Interest in Joining Form**
-
-
-### **Other Pages**
-
-#### **Thankyou Page**
-
-#### **404 Page**
+#### Call To Action
 
 
-### **Future Features**
+### Book Us
+
+#### Book Us Info Text
+
+#### Booking Enquiry Form
+
+
+### Join Us
+
+#### Join Us Info Text
+
+#### Interest in Joining Form
+
+
+### Other Pages
+
+#### Thankyou Page
+
+#### 404 Page
+
+
+### Future Features
 Future Plans
 Upcoming gigs are key - including recent events also a good idea
 Idea - include links to other Batala bands around the world - interactive map!! (Future plan)
 Idea - include call out for videos/photos that people may have taken in gallery
 
 
-## **Testing**
+## Testing
 
-### **Validation**
-#### **HTML Validation**
-#### **CSS Validation**
-#### **Accessibility**
-#### **Performance**
+### Validation
+#### HTML Validation
+#### CSS Validation
+#### Accessibility
+#### Performance
 
-### **Responsiveness / Device Testing**
+### Responsiveness / Device Testing
 
-### **Browser Compatibility**
+### Browser Compatibility
 
-### **Testing User Stories**
-
-
-## **Bugs**
+### Testing User Stories
 
 
-## **Deployment**
+## Bugs
 
-### **GitHub Pages**
+### Animated button lines on no-hover devices
 
-### **Forking the GitHub Repository**
-
-### **Cloning the GitHub Repository**
+### Buttons and links too small on mobile
 
 
-## **Credits**
 
-### **Code**
 
-### **Content**
+## Deployment
 
-### **Media**
+### GitHub Pages
 
-### **Acknowledgements**
+### Forking the GitHub Repository
+
+### Cloning the GitHub Repository
+
+
+## Credits
+
+### Code
+
+• [Bootstrap 5](https://getbootstrap.com/): Boostrap library used throughout the project for layout and responsiveness using the Bootstrap Grid System.
+
+### Content
+
+The text in the About Us section of the site has been adapted and expanded from the original [Batala Bangor Website](http://www.batalabangor.com/)
+
+### Media
+
+### Acknowledgements
