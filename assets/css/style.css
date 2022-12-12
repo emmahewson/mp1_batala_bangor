@@ -562,6 +562,21 @@ textarea:focus {
     margin-top: 60px;
 }
 
+
+/*-----------------------------------------------------------404 */
+
+#error-container {
+    height: 75vh;
+    padding-top: 200px;
+}
+
+#error-container p a {
+    color: #ffffff;
+    font-weight: 600;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.5px;
+}
+
 /*-----------------------------------------------------------Footer */
 
 footer {
