@@ -6,7 +6,7 @@
 
 [Click here to view the live web application](https://emmahewson.github.io/mp1_batala_bangor/index.html)
 
-## **BATALA HEY!**
+**BATALA HEY!**
 This is the documentation for Batala Bangor’s new website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Diploma in Web Application Development Course.
 
 
