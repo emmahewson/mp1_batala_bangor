@@ -9,24 +9,21 @@
 ## **BATALA HEY!**
 This is the documentation for Batala Bangor’s new website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Diploma in Web Application Development Course.
 
----
 
 ## **Table of Contents**
 
 1. [Project Goals](#project-goals)
     * [Client Goals](#client-goals)
 
----
 
 ## **Project Development & Planning**
 
 I followed the principles of User Experience (UX) in the planning and development of my website, including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
 
----
 
-### **Project Goals**
+### Project Goals
 
-#### **Client background**
+#### Client background
 Batala Bangor is a samba reggae drumming group based in North Wales. Each summer the band perform at carnivals, fairs, festivals and events across North Wales and beyond. Anyone can join and no experience is required. The music that Batala Bangor plays originates in Salvador, Brazil, and Batala Bangor is one of over 40 Batala bands worldwide who all play the same rhythms and meet up regularly for international events.
 
 #### **Client Goals**
@@ -43,9 +40,9 @@ The website will be for different types of users with different motivations and 
 * Someone interested in joining the band
 * Fans of the band interested in learning more about them
 
----
 
 ### **Research**
+
 #### **Market Review**
 
 I conducted a market review which included other bands in North Wales, drumming groups and other Batala bands across the UK (links below). I looked at their websites & social media accounts, how they presented and promoted themselves, what content and features they offered, how it was laid out, what worked and what didn’t.
@@ -66,7 +63,7 @@ I conducted a market review which included other bands in North Wales, drumming 
 * Upcoming & recent gigs listings give a sense of a vibrant, active & in-demand band
 * Make sure nav and social media links are accessible and easy to find
 
----
+
 ### **User Stories**
 
 **User Story 1: An event organiser interested in booking the band**
@@ -91,7 +88,7 @@ I conducted a market review which included other bands in North Wales, drumming 
 
 Based on my earlier research and by defining my user stories I was able to create a clear scope for the website to keep the project on track and to avoid scope creep later on. As this was my first web development project I put a lot of focus in to having a concrete scope from the beginning.
 
----
+
 ### **Design, Layout & Structure**
 
 I chose to have a bright, clean, bold design using the Batala colours of red, white and black, with lots of visual content such as large eye-catching images.
@@ -165,14 +162,12 @@ I chose to use muted versions of the Batala brand colours of black, white and re
 
 I imported Google Fonts and used Poppins (with a fallback of Sans Serif) for the main body text. I felt this had a friendly, rounded shape that suited the site design, good legibility and a range of weights. I used Fira Sans (with a fallback of Sans Serif) for the headings. I chose it because it had good contrast with the body font and had a strong bold look to have good legibility over images as well as a contrasting thin versions which would make it flexible for different heading types.
 
----
 
 ## **Technologies Used**
 
 ### **Languages**
 * HTML
 * CSS
-
 
 ### **Tools**
 * Git
@@ -198,7 +193,6 @@ I imported Google Fonts and used Poppins (with a fallback of Sans Serif) for the
 * Font Awesome
     * Used to add icons to the site to help with UX and to add more character
 
----
 
 ## **Features**
 
@@ -250,17 +244,12 @@ I imported Google Fonts and used Poppins (with a fallback of Sans Serif) for the
 #### **404 Page**
 
 
-
-
-
-### **Future**
+### **Future Features**
 Future Plans
 Upcoming gigs are key - including recent events also a good idea
 Idea - include links to other Batala bands around the world - interactive map!! (Future plan)
 Idea - include call out for videos/photos that people may have taken in gallery
 
-
----
 
 ## **Testing**
 
@@ -277,12 +266,8 @@ Idea - include call out for videos/photos that people may have taken in gallery
 ### **Testing User Stories**
 
 
----
-
 ## **Bugs**
 
-
----
 
 ## **Deployment**
 
@@ -292,7 +277,6 @@ Idea - include call out for videos/photos that people may have taken in gallery
 
 ### **Cloning the GitHub Repository**
 
----
 
 ## **Credits**
 
