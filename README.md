@@ -423,4 +423,5 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 ### Acknowledgements
 
 * My mentor [Gareth McGirr](https://github.com/Gareth-McGirr/) for all his help and advice throughout the project
+* To [Batala Bangor](http://www.batalabangor.com/) for allowing me to use the band as the subject for my project
 * The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support
