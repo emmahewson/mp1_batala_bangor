@@ -321,7 +321,7 @@ They fell under 2 categories
 * Using the unit 'px' after the height & width of the testimonial images in the inline styling
     * I fixed this by removing the 'px' units
 
-**HTML Validation - 2nd Round**
+**HTML Validation - Post Fixes**
 <details><summary>Book Us</summary>
 <img src="assets/images/val-html-book-2.png">
 </details>
@@ -329,10 +329,13 @@ They fell under 2 categories
 <img src="assets/images/val-html-join-2.png">
 </details>
 
-
-
-
 ### CSS Validation
+
+I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were no errors, there were a number of warnings but the validator was simply flagging up that it couldn't check the external Bootstrap stylesheet.
+<details><summary>CSS Validation Results</summary>
+<img src="assets/images/val-css-1.png">
+</details>
+
 ### Accessibility
 ### Performance
 
