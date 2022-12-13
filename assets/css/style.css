@@ -116,7 +116,7 @@ figure {
     margin: 10px 5px 10px 5px;
 }
 
-.nav-item a {
+.nav-link {
     list-style: none;
     color: #ffffff;
     font-weight: 300;
@@ -155,12 +155,12 @@ figure {
 
 #hero-home {
     padding: 0;
-    height: 90vh;
+    height: 85vh;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
         url("../images/hero_home.jpg");
     background-color: #282727;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -299,25 +299,16 @@ figure {
 }
 
 #cta-join-text {
-    width: 35%;
-    min-width: 200px;
-    margin: 0 auto;
+    margin-top: 60px;
 }
 
 #cta-join-text a {
     color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px;
     text-underline-offset: 5px;
-    padding: 20px 10px;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-}
-
-.link-text {
-    opacity: 60%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    text-decoration-thickness: 0.5px;
 }
 
 /*-----------------------------------------------------------Join / Book */
@@ -395,7 +386,7 @@ textarea:focus {
 /*-----------------------------------------------------------Testimonials */
 
 #testimonial-container {
-    padding: 100px 2% 60px 2%;
+    padding: 100px 5% 60px 5%;
 }
 
 #testimonial-title {
@@ -423,6 +414,8 @@ textarea:focus {
 
 /*-----------------------------------------------------------Buttons */
 
+/*----------------------Button Shared Styles */
+
 .circle-button-lrg,
 .circle-button-sm {
     position: relative;
@@ -440,26 +433,7 @@ textarea:focus {
 .circle-button-sm {
     width: 92px;
     height: 92px;
-}
-
-#find-out-more-btn {
-    margin-top: 60px;
-}
-
-#book-us-btn {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-#submit-btn {
-    position: relative;
     right: 15px;
-    font-size: 85%;
-}
-
-.submit-btn-txt {
-    border: none;
-    background-color: transparent;
 }
 
 .white-circle {
@@ -473,26 +447,13 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
 }
 
-.white-circle a {
-    z-index: 2;
-    text-decoration: none;
-    padding: 30px 0px;
-}
-
-.button-text {
+.button-text,
+.submit-btn-txt {
     font-family: 'Fira Sans', sans-serif;
-    color: #282727;
     margin: 0;
-    line-height: 120%;
     font-weight: 500;
-    transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
 }
 
 .line-circle-dark {
@@ -544,6 +505,44 @@ textarea:focus {
     -o-transition: transform 0.35s 0.1s ease-in-out;
 }
 
+/*----------------------Find Out More / Book Us Buttons */
+
+#find-out-more-btn {
+    margin-top: 60px;
+}
+
+.button-text {
+    line-height: 120%;
+    font-size: 95%;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.button-text a {
+    color: #282727;
+    text-decoration: none;
+}
+
+#book-us-btn a {
+    padding: 40px 10px;
+}
+
+#find-out-more-btn a {
+    padding: 25px 0px;
+}
+
+/*----------------------Submit Buttons */
+
+.submit-btn-txt {
+    font-size: 12.5px;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
 /*-----------------------------------------------------------Gallery & Video */
 
 .gallery-image {
@@ -565,17 +564,21 @@ textarea:focus {
 
 /*-----------------------------------------------------------404 */
 
-#error-container {
-    height: 90vh;
-    padding-top: 200px;
+.subpage-container {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#error-container p a {
+.subpage-container p a {
     color: #ffffff;
     font-weight: 600;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     text-decoration-thickness: 0.5px;
 }
+
 
 /*-----------------------------------------------------------Footer */
 
@@ -667,11 +670,6 @@ footer {
         text-align: center;
     }
 
-    #submit-btn {
-        margin: 0 auto;
-        right: 0;
-    }
-
     .form-input-textarea {
         height: 250px;
     }
@@ -753,6 +751,7 @@ footer {
 
     #hero-home {
         height: 75vh;
+        min-height: 300px;
     }
 
     .text-section-container {
@@ -773,12 +772,7 @@ footer {
     }
 
     #need-drum-container {
-        padding: 60px 0px 10px 0;
-    }
-
-    #book-us-btn {
-        margin-top: 10px;
-        margin-bottom: 30px;
+        padding: 60px 0px 60px 0;
     }
 
     .form-container {
@@ -823,12 +817,13 @@ footer {
     .nav-link:hover {
         opacity: 100%;
     }
-    .link-text:hover {
-        opacity: 100%;
-    }
     .white-circle:hover .button-text {
-        font-size: 110%;
+        font-size: 105%;
     }
+    .white-circle:hover .submit-btn-txt {
+        font-size: 14px;
+    }
+
     .white-circle:hover~* {
         transform: scale(1);
     }
