@@ -185,14 +185,14 @@ The site has a simple structure made up of 4 pages:
 The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. However I have designed a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it.
 The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis given to BOOK at the end as this is a more important goal for the band.)
 
-![Find Out More Button]()
-![Book Us / Join Link]()
+![Find Out More Button](assets/images/wireframes-navroute-button-1.png)
+![Book Us / Join Link](assets/images/wireframes-navroute-button-2.png)
 
 #### Colour
 
 I chose to use muted versions of the Batala brand colours of black, white and red as using a full primary red and 100% black was quite garish and hard on the eyes. This helped to keep the site bright, friendly and bold.
 
-![Colour Pallette]()
+![Colour Pallette](assets/images/color-pallette-01.png)
 
 
 #### Fonts
