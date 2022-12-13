@@ -156,19 +156,19 @@ I chose to have a bright, clean, bold design using the Batala colours of red, wh
 I decided to create a fully designed site in Figma before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
 
 <details><summary>Home</summary>
-<img src="">
+<img src="assets/images/wireframes-home.png">
 </details>
 <details><summary>About Us</summary>
-<img src="">
+<img src="assets/images/wireframes-about.png">
 </details>
 <details><summary>Book Us</summary>
-<img src="">
+<img src="assets/images/wireframes-book.png">
 </details>
 <details><summary>Join Us</summary>
-<img src="">
+<img src="assets/images/wireframes-join.png">
 </details>
 
-
+   
 #### Structure
 
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could.
