@@ -54,11 +54,10 @@
         * [404 Page](#404-page)
     * [Future Features](#future-features)
 * [Testing](#testing)
-    * [Validation](#validation)
-        * [HTML Validation](#html-validation)
-        * [CSS Validation](#css-validation)
-        * [Accessibility](#accessibility)
-        * [Performance](#performance)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+    * [Accessibility](#accessibility)
+    * [Performance](#performance)
     * [Responsiveness / Device Testing](#responsiveness--device-testing)
     * [Browser Compatibility](#browser-compatibility)
     * [Testing User Stories](#testing-user-stories)
@@ -292,11 +291,50 @@ Idea - include call out for videos/photos that people may have taken in gallery
 
 ## Testing
 
-### Validation
-#### HTML Validation
-#### CSS Validation
-#### Accessibility
-#### Performance
+### HTML Validation
+
+I ran the code for all the pages through the [W3C HTML Validator](https://validator.w3.org/nu/).
+<details><summary>Home</summary>
+<img src="assets/images/val-html-index-1.png">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/val-html-about-1.png">
+</details>
+<details><summary>Book Us</summary>
+<img src="assets/images/val-html-book-1.png">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/val-html-join-1.png">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/val-html-thankyou-1.png">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/val-html-404-1.png">
+</details>
+
+**Results**
+2 of the pages contained errors; Join Us & Book Us. 
+They fell under 2 categories
+* Using a `<p>` element within a `<button>`
+    * I fixed this by changing the `<p>` to a `<span>`
+* Using the unit 'px' after the height & width of the testimonial images in the inline styling
+    * I fixed this by removing the 'px' units
+
+**HTML Validation - 2nd Round**
+<details><summary>Book Us</summary>
+<img src="assets/images/val-html-book-2.png">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/val-html-join-2.png">
+</details>
+
+
+
+
+### CSS Validation
+### Accessibility
+### Performance
 
 ### Responsiveness / Device Testing
 
