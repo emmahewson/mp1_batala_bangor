@@ -641,11 +641,6 @@ footer {
     -o-transition: all 0.25s ease-in-out;
 }
 
-.list-inline-item a span {
-    color: black;
-    background-color: white;
-}
-
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
 
 /* Below Large */

@@ -340,10 +340,13 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
 
-* The tool raised some contrast errors in some of the text, upon further evaluation I discovered this was referring to the text elements in the footer social links with a class of 'sr-only' to aid accessibilty for screen readers, which were not visible anyway. So I discounted this issue.
+* The tool raised some contrast errors in the text elements in the footer social links with a class of 'sr-only' (which are hidden by the Bootstrap styling).
+I tried a number of ways to fix this error based on my research, via the Code Institute Slack Community and via Code Insitute Tutor Support:
+    * Changing the `<span>` for an `aria-label` within the `<i>` element. However this caused an error of an empty link and is not best practice.
+    * Over-riding the Bootstrap styling with color and background-color changes. This had no impact on the contrast errors.
+But I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
 
-![Wave Web Tool Contrast Error - whole site](assets/images/val-acc-prob1-1.png)
-![Wave Web Tool Contrast Error - details](assets/images/val-acc-prob1-2.png)
+![Wave Web Tool Contrast Error - whole site](assets/images/val-acc-prob1-3.png)
 
 * The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
 
