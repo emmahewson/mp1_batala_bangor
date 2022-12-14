@@ -338,8 +338,30 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 ### Accessibility
 
-I ran the site through
+I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
+
+* The tool raised some contrast errors in some of the text, however upon further evaluation I discovered this was referring to the text elements in the footer social links with a class of 'sr-only' to aid accessibilty for screen readers, which were not visible anyway. So I discounted this issue.
+
+![Wave Web Tool Contrast Error - whole site](assets/images/val-acc-prob1-1.png)
+![Wave Web Tool Contrast Error - details](assets/images/val-acc-prob1-2.png)
+
+* The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
+
+![Wave Web Tool Heading Error - whole site](assets/images/val-acc-prob2-1.png)
+![Wave Web Tool Heading Error - details](assets/images/val-acc-prob2-2.png)
+
+* The tool also picked up on a missing label for the `<textarea>` element in the booking form. As the textarea contained placeholder text I had not included a label. I solved this problem by adding a label to the code and making it only visible to screen readers.
+
+![Wave Web Tool Label Error](assets/images/val-acc-prob3.png)
+
+```
+<label for="book-form-textarea" class="sr-only">Anything else we need to know?</label>
+<textarea id="book-form-textarea" class="form-input-textarea" name="experience-info" rows="5">Anything else we need to know?</textarea>
+```
+
 ### Performance
+
+I ran the site through
 
 ### Responsiveness / Device Testing
 
@@ -352,7 +374,26 @@ I ran the site through
 
 ### Animated button lines on no-hover devices
 
-### Buttons and links too small on mobile
+During development I created 'buttons' which had a hover CSS animation on them where lines animated out from behind the circle (designed to represent drum vibrations.) However I wanted the lines to be visible on devices where there was no hover available (e.g. touchscreen). My solution was to create an additional media query for devices without a hover function that changed the starting values for the scale transform to the final values of the animation.
+
+```
+/* No Hover Devices */
+
+@media (hover: none) {
+
+    .line-circle-inner,
+    .line-circle-middle,
+    .line-circle-outer {
+        transform: scale(1)
+    }
+}
+```
+
+### Booking Form - Date Input Styling
+
+![Book Us form on mobile - styling bug ](assets/images/bugs-book-form-date.jpg)
+
+During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
 
 

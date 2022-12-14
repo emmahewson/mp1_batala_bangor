@@ -40,24 +40,33 @@ p {
     font-size: 18px;
 }
 
-h1,
-h2,
+.main-title,
 .tagline,
+.tagline-small,
+.section-title,
 nav {
     font-family: 'Fira Sans', sans-serif;
 }
 
-h1 {
+.main-title {
     font-weight: 700;
     font-size: 80px;
 }
 
-.tagline {
+.tagline,
+.tagline-small {
     font-weight: 300;
+}
+
+.tagline {
     font-size: 24px;
 }
 
-h2,
+.tagline-small {
+    font-size: 20px;
+}
+
+.section-title,
 .thanks-title {
     font-weight: 700;
     font-size: 36px;
@@ -324,10 +333,6 @@ figure {
     padding-right: 5%;
 }
 
-.tagline-small {
-    font-size: 20px;
-}
-
 .form-text-block p a {
     color: #ffffff;
     font-weight: 600;
@@ -351,8 +356,7 @@ figure {
 }
 
 .form-input-text,
-.form-input-textarea,
-.form-input-date {
+.form-input-textarea {
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -361,8 +365,7 @@ figure {
     color: #3a3a3a;
 }
 
-.form-input-text,
-.form-input-date {
+.form-input-text {
     margin-top: 5px;
 }
 
@@ -370,11 +373,6 @@ figure {
     margin-top: 20px;
     padding: 10px;
     height: 160px;
-}
-
-.form-input-date {
-    height: 26px;
-    border: none;
 }
 
 input:focus,
@@ -689,7 +687,10 @@ footer {
     .form-title {
         margin-bottom: 60px;
         text-align: center;
-        font-size: 30px;
+    }
+
+    .tagline-small {
+        font-size: 24px;
         font-weight: 700;
     }
 
@@ -761,7 +762,7 @@ footer {
 
 @media (max-width: 575px),
 (max-height: 575px) {
-    h1 {
+    .main-title {
         font-size: 48px;
     }
 
@@ -769,7 +770,7 @@ footer {
         font-size: 18px;
     }
 
-    h2 {
+    .section-title {
         font-size: 30px;
     }
 
