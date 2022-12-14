@@ -869,3 +869,7 @@ footer {
         background-color: #CB3737;
     }
 }
+
+.sr-only {
+    color: black;
+}

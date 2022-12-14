@@ -340,7 +340,7 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
 
-* The tool raised some contrast errors in some of the text, however upon further evaluation I discovered this was referring to the text elements in the footer social links with a class of 'sr-only' to aid accessibilty for screen readers, which were not visible anyway. So I discounted this issue.
+* The tool raised some contrast errors in some of the text, upon further evaluation I discovered this was referring to the text elements in the footer social links with a class of 'sr-only' to aid accessibilty for screen readers, which were not visible anyway. So I discounted this issue.
 
 ![Wave Web Tool Contrast Error - whole site](assets/images/val-acc-prob1-1.png)
 ![Wave Web Tool Contrast Error - details](assets/images/val-acc-prob1-2.png)
@@ -350,7 +350,7 @@ I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave
 ![Wave Web Tool Heading Error - whole site](assets/images/val-acc-prob2-1.png)
 ![Wave Web Tool Heading Error - details](assets/images/val-acc-prob2-2.png)
 
-* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding a label to the code and making it only visible to screen readers.
+* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder.
 
 ![Wave Web Tool Label Error](assets/images/val-acc-prob3.png)
 
