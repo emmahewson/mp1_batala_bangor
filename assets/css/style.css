@@ -641,8 +641,9 @@ footer {
     -o-transition: all 0.25s ease-in-out;
 }
 
-.sr-only {
+.list-inline-item span {
     color: black;
+    background-color: white;
 }
 
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
@@ -868,8 +869,4 @@ footer {
     .social-links li a i:hover {
         background-color: #CB3737;
     }
-}
-
-.sr-only {
-    color: black;
 }
