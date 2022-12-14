@@ -155,16 +155,16 @@ I chose to have a bright, clean, bold design using the Batala colours of red, wh
 I decided to create a fully designed site in Figma before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
 
 <details><summary>Home</summary>
-<img src="assets/images/wireframes-home.png">
+<img src="assets/images/readme/wireframes-home.webp">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/wireframes-about.png">
+<img src="assets/images/readme/wireframes-about.webp">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/wireframes-book.png">
+<img src="assets/images/readme/wireframes-book.webp">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/wireframes-join.png">
+<img src="assets/images/readme/wireframes-join.webp">
 </details>
 
    
@@ -184,14 +184,14 @@ The site has a simple structure made up of 4 pages:
 The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. However I have designed a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it.
 The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis given to BOOK at the end as this is a more important goal for the band.)
 
-![Find Out More Button](assets/images/wireframes-navroute-button-1.jpeg)
-![Book Us / Join Link](assets/images/wireframes-navroute-button-2.jpeg)
+![Find Out More Button](assets/images/readme/wireframes-navroute-button-1.webp)
+![Book Us / Join Link](assets/images/readme/wireframes-navroute-button-2.webp)
 
 #### Colour
 
 I chose to use muted versions of the Batala brand colours of black, white and red as using a full primary red and 100% black was quite garish and hard on the eyes. This helped to keep the site bright, friendly and bold.
 
-![Colour Pallette](assets/images/color-pallette-01.png)
+![Colour Pallette](assets/images/readme/color-pallette-01.webp)
 
 
 #### Fonts
@@ -295,22 +295,22 @@ Idea - include call out for videos/photos that people may have taken in gallery
 
 I ran the code for all the pages through the [W3C HTML Validator](https://validator.w3.org/nu/).
 <details><summary>Home</summary>
-<img src="assets/images/val-html-index-1.png">
+<img src="assets/images/readme/val-html-index-1.webp">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/val-html-about-1.png">
+<img src="assets/images/readme/val-html-about-1.webp">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/val-html-book-1.png">
+<img src="assets/images/readme/val-html-book-1.webp">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/val-html-join-1.png">
+<img src="assets/images/readme/val-html-join-1.webp">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/val-html-thankyou-1.png">
+<img src="assets/images/readme/val-html-thankyou-1.webp">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/val-html-404-1.png">
+<img src="assets/images/readme/val-html-404-1.webp">
 </details>
 
 **Results**
@@ -323,17 +323,17 @@ They fell under 2 categories
 
 **HTML Validation - Post Fixes**
 <details><summary>Book Us</summary>
-<img src="assets/images/val-html-book-2.png">
+<img src="assets/images/readme/val-html-book-2.webp">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/val-html-join-2.png">
+<img src="assets/images/readme/val-html-join-2.webp">
 </details>
 
 ### CSS Validation
 
 I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were no errors, there were a number of warnings but the validator was simply flagging up that it couldn't check the external Bootstrap stylesheet.
 <details><summary>CSS Validation Results</summary>
-<img src="assets/images/val-css-1.png">
+<img src="assets/images/readme/val-css-1.webp">
 </details>
 
 ### Accessibility
@@ -346,16 +346,16 @@ I tried a number of ways to fix this error based on my research, via the Code In
     * Over-riding the Bootstrap styling with color and background-color changes. This had no impact on the contrast errors.
 But I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
 
-![Wave Web Tool Contrast Error - whole site](assets/images/val-acc-prob1-3.png)
+![Wave Web Tool Contrast Error - whole site](assets/images/readme/val-acc-prob1-3.webp)
 
 * The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
 
-![Wave Web Tool Heading Error - whole site](assets/images/val-acc-prob2-1.png)
-![Wave Web Tool Heading Error - details](assets/images/val-acc-prob2-2.png)
+![Wave Web Tool Heading Error - whole site](assets/images/readme/val-acc-prob2-1.webp)
+![Wave Web Tool Heading Error - details](assets/images/readme/val-acc-prob2-2.webp)
 
 * The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder.
 
-![Wave Web Tool Label Error](assets/images/val-acc-prob3.png)
+![Wave Web Tool Label Error](assets/images/readme/val-acc-prob3.webp)
 
 ```
 <label for="book-form-textarea" class="sr-only">Anything else we need to know?</label>
@@ -366,7 +366,32 @@ With these amendment made there were no further significant accessibility issues
 
 ### Performance
 
-I ran the site through
+I ran the site through Google Chrome Dev Tools' Lighthouse to check on its performance.
+
+**Original Results**
+<details><summary>Home</summary>
+<img src="assets/images/readme/val-perf-home-1.webp">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/readme/val-perf-about-1.webp">
+</details>
+<details><summary>Book Us</summary>
+<img src="assets/images/readme/val-perf-book-1.webp">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/val-perf-join-1.webp">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme/val-perf-thanks-1.webp">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/readme/val-perf-404-1.webp">
+</details>
+
+
+Whilst the scores were high I was able to make the following improvements based on the results.
+* further optimised the images on the site by converting them to webp and resizing where relevant
+* added a `<meta>` description to the pages
 
 ### Responsiveness / Device Testing
 
@@ -396,7 +421,7 @@ During development I created 'buttons' which had a hover CSS animation on them w
 
 ### Booking Form - Date Input Styling
 
-![Book Us form on mobile - styling bug ](assets/images/bugs-book-form-date.jpg)
+![Book Us form on mobile - styling bug ](assets/images/readme/bugs-book-form-date.webp)
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
