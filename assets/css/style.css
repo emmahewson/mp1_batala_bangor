@@ -75,10 +75,6 @@ h3 {
     text-align: right;
 }
 
-.sr-only {
-    color: black;
-}
-
 
 /*-----------------------------------------------------------Containers / Dividers / Generic Margins */
 
@@ -641,6 +637,10 @@ footer {
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
+}
+
+.sr-only {
+    color: black;
 }
 
 /*-----------------------------------------------------------Media Queries & Hover Pseudo Elements */
