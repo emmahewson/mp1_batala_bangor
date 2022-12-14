@@ -350,7 +350,7 @@ I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave
 ![Wave Web Tool Heading Error - whole site](assets/images/val-acc-prob2-1.png)
 ![Wave Web Tool Heading Error - details](assets/images/val-acc-prob2-2.png)
 
-* The tool also picked up on a missing label for the `<textarea>` element in the booking form. As the textarea contained placeholder text I had not included a label. I solved this problem by adding a label to the code and making it only visible to screen readers.
+* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding a label to the code and making it only visible to screen readers.
 
 ![Wave Web Tool Label Error](assets/images/val-acc-prob3.png)
 
@@ -358,6 +358,8 @@ I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave
 <label for="book-form-textarea" class="sr-only">Anything else we need to know?</label>
 <textarea id="book-form-textarea" class="form-input-textarea" name="experience-info" rows="5">Anything else we need to know?</textarea>
 ```
+
+With these amendment made there were no further significant accessibility issues in the site.
 
 ### Performance
 
