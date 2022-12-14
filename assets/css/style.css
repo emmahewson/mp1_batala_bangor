@@ -42,7 +42,7 @@ p {
 
 h1,
 h2,
-h3,
+.tagline,
 nav {
     font-family: 'Fira Sans', sans-serif;
 }
@@ -50,15 +50,15 @@ nav {
 h1 {
     font-weight: 700;
     font-size: 80px;
-
 }
 
-h2 {
+.tagline {
     font-weight: 300;
     font-size: 24px;
 }
 
-h3 {
+h2,
+.thanks-title {
     font-weight: 700;
     font-size: 36px;
 }
@@ -74,7 +74,6 @@ h3 {
 .txt-right {
     text-align: right;
 }
-
 
 /*-----------------------------------------------------------Containers / Dividers / Generic Margins */
 
@@ -325,7 +324,7 @@ figure {
     padding-right: 5%;
 }
 
-.h2-small {
+.tagline-small {
     font-size: 20px;
 }
 
@@ -570,6 +569,7 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .subpage-container p a {
@@ -591,6 +591,10 @@ footer {
 
 .footer-padding {
     height: 180px;
+}
+
+.footer-padding-small {
+    height: 140px;
 }
 
 .footer-circle-wrapper {
@@ -713,11 +717,11 @@ footer {
         margin-right: 0;
         margin-bottom: 30px;
     }
-    
+
     .testi-left-col {
         margin-right: 0px;
     }
-    
+
     .testi-right-col {
         margin-left: 0px;
     }
@@ -761,11 +765,11 @@ footer {
         font-size: 48px;
     }
 
-    h2 {
+    .tagline {
         font-size: 18px;
     }
 
-    h3 {
+    h2 {
         font-size: 30px;
     }
 
@@ -829,6 +833,7 @@ footer {
 /* No Hover Devices */
 
 @media (hover: none) {
+
     .line-circle-inner,
     .line-circle-middle,
     .line-circle-outer {
@@ -842,12 +847,15 @@ footer {
     .nav-brand:hover {
         color: white;
     }
+
     .nav-link:hover {
         opacity: 100%;
     }
+
     .white-circle:hover .button-text {
         font-size: 105%;
     }
+
     .white-circle:hover .submit-btn-txt {
         font-size: 14px;
     }
@@ -855,6 +863,7 @@ footer {
     .white-circle:hover~* {
         transform: scale(1);
     }
+
     .social-links li a i:hover {
         background-color: #CB3737;
     }
