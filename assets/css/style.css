@@ -75,6 +75,10 @@ h3 {
     text-align: right;
 }
 
+.sr-only {
+    color: black;
+}
+
 
 /*-----------------------------------------------------------Containers / Dividers / Generic Margins */
 

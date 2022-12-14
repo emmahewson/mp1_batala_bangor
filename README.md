@@ -133,7 +133,7 @@ I conducted a market review which included other bands in North Wales, drumming 
 **User Story 2: As someone interested in joining the band I want to:**
 * find out general information about the band and music
 * see & hear media content of the band performing
-* find social media link to interact with the band
+* find social media links to interact with the band
 * find out about opportunities for members
 * find out about commitment & experience required to join
 * contact the band to express an interest in joining
@@ -184,8 +184,8 @@ The site has a simple structure made up of 4 pages:
 The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. However I have designed a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it.
 The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis given to BOOK at the end as this is a more important goal for the band.)
 
-![Find Out More Button](assets/images/wireframes-navroute-button-1.png)
-![Book Us / Join Link](assets/images/wireframes-navroute-button-2.png)
+![Find Out More Button](assets/images/wireframes-navroute-button-1.jpeg)
+![Book Us / Join Link](assets/images/wireframes-navroute-button-2.jpeg)
 
 #### Colour
 
@@ -337,6 +337,8 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 </details>
 
 ### Accessibility
+
+I ran the site through
 ### Performance
 
 ### Responsiveness / Device Testing
