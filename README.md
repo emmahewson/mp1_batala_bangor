@@ -428,6 +428,17 @@ The site was tested on the following browsers
 
 ### Testing User Stories
 
+### Testing user stories
+
+1. As a first time user, I want to know where the barber shop is located
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address and Google map | Scroll down on home page, locate the Address and the Google Map | Locating a map showing the location of the barber shop | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1.png">
+</details>
 
 ### Additional Bugs
 
@@ -472,6 +483,34 @@ After optimising the images by converting them to webp I missed updating the rel
 </details>
 
 During testing I noticed that the text within the `<textarea>` on both forms needed manually deleting before a user could enter their own message. I fixed this by deleting the text between the `<textarea>` tags and adding a `placeholder` attribute with the same content.
+
+### Thankyou/404 Page Layout
+
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/bugs-thanks-layout.webp">
+</details>
+
+During testing I discovered that the thankyou page (after submitting a form) was displaying with an incorrect layout when the window was wider than 1300px. This was also happening on the 404 page. This issue appeared to be caused by the unique layout of these pages which were designed not to scroll, this somehow cause the max-width on the body to not apply to these footers. After some experimentation I fixed this issue by targeting the footer on these pages and using the following CSS styling:
+
+    .subpage-footer {
+        position: fixed;
+        width: 100%;
+        max-width: 1300px;
+        bottom: 0;
+        margin: 0 auto;
+    }
+</details>
+
+### Thankyou Page Responsiveness
+
+<details><summary>Screenshot - before</summary>
+<img src="assets/images/readme/bugs-thanks-responsive-1.webp">
+</details>
+<details><summary>Screenshot - after</summary>
+<img src="assets/images/readme/bugs-thanks-responsive-2.webp">
+</details>
+
+There was also an issue with the 404 & Thankyou pages not displaying all the content on a horizontal small screen device. This was due to these pages being a non-scrolling static page designed to stay fixed on the screen. I fixed this bug by targeting styling changes directly to screens with a max-height value for these pages, this included changing the padding and removing the footer with the social links. This was a compromise that avoided significant styling changes to the footer for a less-used screen size on a page that users won't spend a long time on, that enhances user experience and legibility.
 
 ## Deployment
 
