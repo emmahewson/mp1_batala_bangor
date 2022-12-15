@@ -394,6 +394,7 @@ Whilst the scores were high I was able to make the following improvements based 
 * adding `height` and `width` attributes to the images to avoid large layout shifts when loading
 * added a `<meta>` description to the pages. This raised my SEO score to 100 for all pages
 * removed unused font weights from the CSS `@import` code
+* increased the contrast in the non-active nav links by increasing the opacity (to make them easier to read)
 
 ### Responsiveness / Device Testing
 
