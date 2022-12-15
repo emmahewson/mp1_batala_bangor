@@ -272,19 +272,19 @@ nav {
 }
 
 #about-img-top {
-    background-image: url("../images/about_band.webp");
+    background-image: url("../images/about_band.jpg");
     border-radius: 0% 10% 10% 0;
     background-position: center top;
 }
 
 #about-img-middle {
-    background-image: url("../images/about_music.webp");
+    background-image: url("../images/about_music.jpg");
     border-radius: 10% 0% 0% 10%;
     background-position: center;
 }
 
 #about-img-bottom {
-    background-image: url("../images/about_mundo.webp");
+    background-image: url("../images/about_mundo.jpg");
     border-radius: 0% 10% 10% 0;
     background-position: center;
 }
