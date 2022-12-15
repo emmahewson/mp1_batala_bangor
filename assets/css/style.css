@@ -178,7 +178,7 @@ nav {
     height: 35vh;
     min-height: 200px;
     background:
-        linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 45%, rgba(0, 0, 0, 0.9) 90%),
         url("../images/hero_about.webp");
     background-color: #282727;
     background-position: center;
@@ -756,6 +756,27 @@ footer {
     .about-title {
         font-size: 30px;
         font-weight: 500;
+    }
+}
+
+/* Medium Landscape Devices */
+
+@media (max-height: 767px) {
+    #hero-about {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0.9) 90%),
+        url("../images/hero_about.webp");
+    }
+
+    #hero-book {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6) 45%, rgba(0, 0, 0, 0.8) 90%),
+            url("../images/hero_book.webp");
+    }
+    
+    #hero-join {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6) 45%, rgba(0, 0, 0, 0.8) 90%),
+            url("../images/hero_join.webp");
     }
 }
 
