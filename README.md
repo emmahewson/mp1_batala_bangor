@@ -440,9 +440,9 @@ The site was tested on the following browsers
 <img src="docs/user-story-testing/user-story-1.png">
 </details>
 
-### Additional Bugs
+### Other Bugs
 
-During development I also encountered various bugs that I have detailed below:
+During development and testing, in addition to the bugs mentioned above I encountered various other bugs that I have detailed below:
 
 ### Animated button lines on no-hover devices
 
@@ -511,6 +511,14 @@ During testing I discovered that the thankyou page (after submitting a form) was
 </details>
 
 There was also an issue with the 404 & Thankyou pages not displaying all the content on a horizontal small screen device. This was due to these pages being a non-scrolling static page designed to stay fixed on the screen. I fixed this bug by targeting styling changes directly to screens with a max-height value for these pages, this included changing the padding and removing the footer with the social links. This was a compromise that avoided significant styling changes to the footer for a less-used screen size on a page that users won't spend a long time on, that enhances user experience and legibility.
+
+### Safari not displaying images
+
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/safari-images.webp">
+</details>
+
+A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research I decided that it was too significant an issue to ignore as it would create a very poor user experience for some users.
 
 ## Deployment
 
