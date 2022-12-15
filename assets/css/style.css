@@ -6,7 +6,7 @@
 
 body,
 nav {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     background: #d1d1d1;
 }
@@ -166,9 +166,9 @@ figure {
     height: 85vh;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
-        url("../images/hero_home.jpg");
+        url("../images/hero_home.webp");
     background-color: #282727;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -183,7 +183,7 @@ figure {
     min-height: 200px;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
-        url("../images/hero_about.jpg");
+        url("../images/hero_about.webp");
     background-color: #282727;
     background-position: center;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ figure {
     min-height: 200px;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
-        url("../images/hero_book.jpg");
+        url("../images/hero_book.webp");
     background-color: #282727;
     background-position: center top 20%;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ figure {
     min-height: 200px;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 65%, rgba(0, 0, 0, 0.9) 90%),
-        url("../images/hero_join.jpg");
+        url("../images/hero_join.webp");
     background-color: #282727;
     background-position: center;
     background-repeat: no-repeat;
@@ -276,19 +276,19 @@ figure {
 }
 
 #about-img-top {
-    background-image: url("../images/about_band.jpg");
+    background-image: url("../images/about_band.webp");
     border-radius: 0% 10% 10% 0;
     background-position: center top;
 }
 
 #about-img-middle {
-    background-image: url("../images/about_music.jpg");
+    background-image: url("../images/about_music.webp");
     border-radius: 10% 0% 0% 10%;
     background-position: center;
 }
 
 #about-img-bottom {
-    background-image: url("../images/about_mundo.jpg");
+    background-image: url("../images/about_mundo.webp");
     border-radius: 0% 10% 10% 0;
     background-position: center;
 }

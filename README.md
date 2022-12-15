@@ -391,7 +391,8 @@ I ran the site through Google Chrome Dev Tools' Lighthouse to check on its perfo
 
 Whilst the scores were high I was able to make the following improvements based on the results.
 * further optimised the images on the site by converting them to webp and resizing where relevant
-* added a `<meta>` description to the pages
+* adding `height` and `width` attributes to the images to avoid large layout shifts when loading
+* added a `<meta>` description to the pages. This raised my SEO score to 100 for all pages.
 
 ### Responsiveness / Device Testing
 
