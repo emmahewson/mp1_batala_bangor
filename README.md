@@ -396,6 +396,26 @@ Whilst the scores were high I was able to make the following improvements based 
 * removed unused font weights from the CSS `@import` code
 * increased the contrast in the non-active nav links by increasing the opacity (to make them easier to read)
 
+**Final Results**
+<details><summary>Home</summary>
+<img src="assets/images/readme/val-perf-home-2.webp">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/readme/val-perf-about-2.webp">
+</details>
+<details><summary>Book Us</summary>
+<img src="assets/images/readme/val-perf-book-2.webp">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/val-perf-join-2.webp">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme/val-perf-thanks-2.webp">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/readme/val-perf-404-2.webp">
+</details>
+
 ### Responsiveness / Device Testing
 
 ### Browser Compatibility
