@@ -61,17 +61,9 @@
     * [Responsiveness / Device Testing](#responsiveness--device-testing)
     * [Browser Compatibility](#browser-compatibility)
     * [Testing User Stories](#testing-user-stories)
-* [Bugs](#bugs)
-    TBC!!!!!!!!!!!
+    * [Other Bugs](#other-bugs)
 * [Deployment](#deployment)
-    * [GitHub Pages](#github-pages)
-    * [Forking the GitHub Repository](#forking-the-github-repository)
-    * [Cloning the GitHub Repository](#cloning-the-github-repository)
 * [Credits](#credits)
-    * [Code](#code)
-    * [Content](#content)
-    * [Media](#media)
-    * [Acknowledgements](#acknowledgements)
 
 ## Project Development & Planning
 
@@ -289,7 +281,7 @@ Idea - include links to other Batala bands around the world - interactive map!! 
 Idea - include call out for videos/photos that people may have taken in gallery
 
 
-## Testing
+## Testing & Bugs
 
 ### HTML Validation
 
@@ -340,27 +332,29 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
 
+<details><summary><strong>1. Wave Web Tool Contrast Error </strong><em>(screenshot on dropdown)</em></summary>
+    <img src="assets/images/readme/val-acc-prob1-3.webp">
+    </details>
+
 * The tool raised some contrast errors in the text elements in the footer social links with a class of 'sr-only' (which are hidden by the Bootstrap styling).
-I tried a number of ways to fix this error based on my research, via the Code Institute Slack Community and via Code Insitute Tutor Support:
+* I tried a number of ways to fix this error based on my research, via the Code Institute Slack Community and via Code Insitute Tutor Support:
     * Changing the `<span>` for an `aria-label` within the `<i>` element. However this caused an error of an empty link and is not best practice.
     * Over-riding the Bootstrap styling with color and background-color changes. This had no impact on the contrast errors.
-But I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
+* I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
 
-![Wave Web Tool Contrast Error - whole site](assets/images/readme/val-acc-prob1-3.webp)
+<details><summary><strong>2. Wave Web Tool Heading Error </strong><em>(screenshots on dropdown)</em></summary>
+    <img src="assets/images/readme/val-acc-prob2-1.webp">
+    <img src="assets/images/readme/val-acc-prob2-2.webp">
+    </details>
 
 * The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
 
-![Wave Web Tool Heading Error - whole site](assets/images/readme/val-acc-prob2-1.webp)
-![Wave Web Tool Heading Error - details](assets/images/readme/val-acc-prob2-2.webp)
+<details><summary><strong>1. Wave Web Tool Label Error Screenshot</strong></summary>
+    <img src="assets/images/readme/val-acc-prob3.webp">
+    </details>
 
-* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder.
+* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder. (An additional bug also appeared in the `<textarea>` code in my general testing: [detailed here](#booking-form---textarea-text-requires-manual-deletion))
 
-![Wave Web Tool Label Error](assets/images/readme/val-acc-prob3.webp)
-
-```
-<label for="book-form-textarea" class="sr-only">Anything else we need to know?</label>
-<textarea id="book-form-textarea" class="form-input-textarea" name="experience-info" rows="5">Anything else we need to know?</textarea>
-```
 
 With these amendment made there were no further significant accessibility issues in the site.
 
@@ -388,11 +382,10 @@ I ran the site through Google Chrome Dev Tools' Lighthouse to check on its perfo
 <img src="assets/images/readme/val-perf-404-1.webp">
 </details>
 
-
-Whilst the scores were high I was able to make the following improvements based on the results.
+Whilst the scores were high I wanted to make the following improvements based on the results and suggestions to make sure that the site performed as well as it could
 * further optimised the images on the site by converting them to webp and resizing where relevant
 * adding `height` and `width` attributes to the images to avoid large layout shifts when loading
-* added a `<meta>` description to the pages. This raised my SEO score to 100 for all pages
+* added a `<meta>` description to the pages
 * removed unused font weights from the CSS `@import` code
 * increased the contrast in the non-active nav links by increasing the opacity (to make them easier to read)
 
@@ -418,50 +411,98 @@ Whilst the scores were high I was able to make the following improvements based 
 
 ### Responsiveness / Device Testing
 
+The site was tested on the following devices
+* Apple Macbook Pro 16inch
+* LG Ultrafine Display 27inch External Monitor
+* Apple iMac 5K 27-inch
+* Apple iPhone SE
+* Apple iPhone 5S
+* Google Chrome Developer Tools - simulator for all different device options as well as using the adjustable sizing options
+
 ### Browser Compatibility
+
+The site was tested on the following browsers
+* Google Chrome
+* Mozilla Firefox
+* Apple Safari
 
 ### Testing User Stories
 
 
-## Bugs
+### Additional Bugs
+
+During development I also encountered various bugs that I have detailed below:
 
 ### Animated button lines on no-hover devices
 
 During development I created 'buttons' which had a hover CSS animation on them where lines animated out from behind the circle (designed to represent drum vibrations.) However I wanted the lines to be visible on devices where there was no hover available (e.g. touchscreen). My solution was to create an additional media query for devices without a hover function that changed the starting values for the scale transform to the final values of the animation.
 
-```
-/* No Hover Devices */
+<details><summary>Final Code Snippet</summary>
 
-@media (hover: none) {
-
-    .line-circle-inner,
-    .line-circle-middle,
-    .line-circle-outer {
-        transform: scale(1)
+    @media (hover: none) {
+        .line-circle-inner,
+        .line-circle-middle,
+        .line-circle-outer {
+            transform: scale(1)
+        }
     }
-}
-```
+</details>
+
 
 ### Booking Form - Date Input Styling
 
-![Book Us form on mobile - styling bug ](assets/images/readme/bugs-book-form-date.webp)
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/bugs-book-form-date.webp">
+</details>
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
 ### Booking Form - Broken Logo
 
-![Broken Logo Link Bug](assets/images/readme/bugs-logo-broken.webp)
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/bugs-logo-broken.webp">
+</details>
 
 After optimising the images by converting them to webp I missed updating the relative path in book-us.html and had the logo failed to load. I fixed this by updating the code with the new file name.
 
+### Booking Form - Textarea text requires manual deletion
+
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/bugs-textarea.webp">
+</details>
+
+During testing I noticed that the text within the `<textarea>` on both forms needed manually deleting before a user could enter their own message. I fixed this by deleting the text between the `<textarea>` tags and adding a `placeholder` attribute with the same content.
 
 ## Deployment
 
 ### GitHub Pages
 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+1. In the GitHub repository, navigate to the Settings tab 
+2. From the left hand menu select 'Pages'
+3. From the source select Branch: main
+4. Click 'Save'
+5. A live link will be displayed when published successfully. 
+
+The live link can be found here -  https://emmahewson.github.io/mp1_batala_bangor/index.html
+
 ### Forking the GitHub Repository
 
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+1. Click on Fork button in upper right hand corner
+
 ### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned locally for you to use.
 
 
 ## Credits
