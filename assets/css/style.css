@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;700&family=Poppins:wght@300;500;600&display=swap');
 
-
 /*----------------------------------------------------------- Page Container Settings */
-
 
 body,
 nav {
@@ -10,7 +8,6 @@ nav {
     margin: 0 auto;
     background: #d1d1d1;
 }
-
 /*-----------------------------------------------------------Colors */
 
 .bg-col-navbar {
@@ -86,8 +83,7 @@ nav {
 
 /*-----------------------------------------------------------Containers / Dividers / Generic Margins */
 
-.row,
-figure {
+.row {
     margin: 0;
 }
 
@@ -340,7 +336,6 @@ figure {
     text-decoration-thickness: 0.5px;
 }
 
-
 /*----------------------------------------------------------- Form */
 
 .form {
@@ -373,6 +368,10 @@ figure {
     margin-top: 20px;
     padding: 10px;
     height: 160px;
+}
+
+.form-label-text {
+    font-weight: 300;
 }
 
 input:focus,
@@ -502,7 +501,7 @@ textarea:focus {
     -o-transition: transform 0.35s 0.1s ease-in-out;
 }
 
-/*----------------------Find Out More / Book Us Buttons */
+/*----------Find Out More / Book Us Buttons */
 
 #find-out-more-btn {
     margin-top: 60px;
@@ -558,7 +557,6 @@ textarea:focus {
     margin-top: 60px;
 }
 
-
 /*-----------------------------------------------------------404 */
 
 .subpage-container {
@@ -576,7 +574,6 @@ textarea:focus {
     text-underline-offset: 5px;
     text-decoration-thickness: 0.5px;
 }
-
 
 /*-----------------------------------------------------------Footer */
 
@@ -611,7 +608,6 @@ footer {
     justify-content: center;
     height: 120px;
     width: auto;
-
 }
 
 #footer-links-wrapper {
@@ -751,7 +747,6 @@ footer {
         font-size: 30px;
         font-weight: 500;
     }
-
 }
 
 /* Below Small */
@@ -815,8 +810,6 @@ footer {
     #testimonial-container {
         padding: 60px 5% 10px 5%;
     }
-
-
 }
 
 /* Small landscape device */
@@ -827,7 +820,7 @@ footer {
     }
 }
 
-/* No Hover Devices */
+/* No Hover Devices - display hover animation result */
 
 @media (hover: none) {
 
