@@ -427,7 +427,11 @@ During development I created 'buttons' which had a hover CSS animation on them w
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
+### Booking Form - Broken Logo
 
+![Broken Logo Link Bug](assets/images/readme/bugs-logo-broken.webp)
+
+After optimising the images by converting them to webp I missed updating the relative path in book-us.html and had the logo failed to load. I fixed this by updating the code with the new file name.
 
 
 ## Deployment
