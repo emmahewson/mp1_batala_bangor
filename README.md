@@ -61,7 +61,7 @@
     * [Responsiveness / Device Testing](#responsiveness--device-testing)
     * [Browser Compatibility](#browser-compatibility)
     * [Testing User Stories](#testing-user-stories)
-    * [Other Bugs](#other-bugs)
+    * [Bugs & Fixes](#bugs--fixes)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -419,12 +419,16 @@ The site was tested on the following devices
 * Apple iPhone 5S
 * Google Chrome Developer Tools - simulator for all different device options as well as using the adjustable sizing options
 
+The website functioned as expected in most cases on these devices, but there were some minor bugs [details of the bugs relating to responsiveness are below.](#bugs--fixes)
+
 ### Browser Compatibility
 
 The site was tested on the following browsers
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
+
+There were no issues on Chrome and Firefox but Safari did throw up a major bug. [More details below of the bug and fix below.](#safari-not-displaying-images)
 
 ### Testing User Stories
 
@@ -440,7 +444,7 @@ The site was tested on the following browsers
 <img src="docs/user-story-testing/user-story-1.png">
 </details>
 
-### Other Bugs
+### Bugs & Fixes
 
 During development and testing, in addition to the bugs mentioned above I encountered various other bugs that I have detailed below:
 
@@ -458,7 +462,6 @@ During development I created 'buttons' which had a hover CSS animation on them w
         }
     }
 </details>
-
 
 ### Booking Form - Date Input Styling
 
@@ -518,7 +521,27 @@ There was also an issue with the 404 & Thankyou pages not displaying all the con
 <img src="assets/images/readme/safari-images.webp">
 </details>
 
-A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research I decided that it was too significant an issue to ignore as it would create a very poor user experience for some users.
+A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were sucessful using jpgs with no impact on the performance score.
+
+**Lighthouse Results with JPG Images**
+<details><summary>Home</summary>
+<img src="assets/images/readme/bugs-val-index.jpeg">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/readme/bugs-val-about.jpeg">
+</details>
+<details><summary>Book Us</summary>
+<img src="assets/images/readme/bugs-val-book.jpeg">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/bugs-val-join.jpeg">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme/bugs-val-thanks.jpeg">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/readme/bugs-val-404.jpeg">
+</details>
 
 ## Deployment
 
