@@ -126,8 +126,7 @@ I conducted a market review which included other bands in North Wales, drumming 
 * find out general information about the band and music
 * see & hear media content of the band performing
 * find social media links to interact with the band
-* find out about opportunities for members
-* find out about commitment & experience required to join
+* find out about commitment & experience required to join and opportunities for members
 * contact the band to express an interest in joining
 
 **User Story 3: As a fan of the band I want to:**
@@ -432,21 +431,82 @@ There were no issues on Chrome and Firefox but Safari did throw up a major bug. 
 
 ### Testing User Stories
 
-### Testing user stories
+I tested the site based on my user stories:
 
-1. As a first time user, I want to know where the barber shop is located
+1. I want to find out information about the band:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Address and Google map | Scroll down on home page, locate the Address and the Google Map | Locating a map showing the location of the barber shop | Works as expected |
+| ***** | ***** | ***** | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1.png">
+<img src="">
 </details>
+
+2. I want to see & hear media content of the band performing:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. I want to see feedback from previous events:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+4. I want to find links to social media for more information and to interact with the band:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+5. I want to contact the band to enquire about booking:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+6. I want to find out about commitment & experience required to join & opportunities for members:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+7. I want to contact the band to express an interest in joining:
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| ***** | ***** | ***** | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
 
 ### Bugs & Fixes
 
-During development and testing, in addition to the bugs mentioned above I encountered various other bugs that I have detailed below:
+During development and testing, in addition to the improvements described in the validation section above, I encountered the following bugs:
 
 ### Animated button lines on no-hover devices
 
