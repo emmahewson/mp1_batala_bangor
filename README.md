@@ -1,7 +1,7 @@
 # Batala Bangor Website
 #### By Emma Hewson
 
-![Batala Bangor Website Mock-up]()
+![Batala Bangor Website Mock-up](assets/images/readme/mockup-1.jpg)
 
 [Click here to view the live web application](https://emmahewson.github.io/mp1_batala_bangor/index.html)
 
@@ -291,25 +291,25 @@ Idea - include call out for videos/photos that people may have taken in gallery
 
 I ran the code for all the pages through the [W3C HTML Validator](https://validator.w3.org/nu/).
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-html-index-1.jpg">
+<img src="assets/images/readme/val-html-index-1.jpeg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-html-about-1.jpg">
+<img src="assets/images/readme/val-html-about-1.jpeg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-html-book-1.jpg">
+<img src="assets/images/readme/val-html-book-1.jpeg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-html-join-1.jpg">
+<img src="assets/images/readme/val-html-join-1.jpeg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-html-thankyou-1.jpg">
+<img src="assets/images/readme/val-html-thankyou-1.jpeg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-html-404-1.jpg">
+<img src="assets/images/readme/val-html-404-1.jpeg">
 </details>
 
-**Results**
+#### **Results**
 2 of the pages contained errors; Join Us & Book Us. 
 They fell under 2 categories
 * Using a `<p>` element within a `<button>`
@@ -317,12 +317,12 @@ They fell under 2 categories
 * Using the unit 'px' after the height & width of the testimonial images in the inline styling
     * I fixed this by removing the 'px' units
 
-**HTML Validation - Post Fixes**
+#### **HTML Validation After Fixes**
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-html-book-2.jpg">
+<img src="assets/images/readme/val-html-book-2.jpeg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-html-join-2.jpg">
+<img src="assets/images/readme/val-html-join-2.jpeg">
 </details>
 
 ### CSS Validation
@@ -336,28 +336,33 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
 
-<details><summary><strong>1. Wave Web Tool Contrast Error </strong><em>(screenshot on dropdown)</em></summary>
-    <img src="assets/images/readme/val-acc-prob1-3.jpg">
+#### **Contrast Error: sr-only**
+<details><summary>Screenshot</summary>
+    <img src="assets/images/readme/val-acc-prob1-3.jpeg">
     </details>
 
-* The tool raised some contrast errors in the text elements in the footer social links with a class of 'sr-only' (which are hidden by the Bootstrap styling).
-* I tried a number of ways to fix this error based on my research, via the Code Institute Slack Community and via Code Insitute Tutor Support:
-    * Changing the `<span>` for an `aria-label` within the `<i>` element. However this caused an error of an empty link and is not best practice.
-    * Over-riding the Bootstrap styling with color and background-color changes. This had no impact on the contrast errors.
-* I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
+The tool raised some contrast errors in the text elements in the footer social links with a class of 'sr-only' (which are hidden by the Bootstrap styling).
 
-<details><summary><strong>2. Wave Web Tool Heading Error </strong><em>(screenshots on dropdown)</em></summary>
-    <img src="assets/images/readme/val-acc-prob2-1.jpg">
-    <img src="assets/images/readme/val-acc-prob2-2.jpg">
+I tried a number of ways to fix this error based on my research, via the Code Institute Slack Community and via Code Insitute Tutor Support:
+* Changing the `<span>` for an `aria-label` within the `<i>` element. However this caused an error of an empty link and is not best practice.
+* Over-riding the Bootstrap styling with color and background-color changes. This had no impact on the contrast errors.
+
+I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
+
+#### **Heading Order Error**
+<details><summary>Screenshots</summary>
+    <img src="assets/images/readme/val-acc-prob2-1.jpeg">
+    <img src="assets/images/readme/val-acc-prob2-2.jpeg">
     </details>
 
-* The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
+The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
 
-<details><summary><strong>1. Wave Web Tool Label Error Screenshot</strong></summary>
-    <img src="assets/images/readme/val-acc-prob3.jpg">
+#### **Form Label Error**
+<details><summary>Screenshot</summary>
+    <img src="assets/images/readme/val-acc-prob3.jpeg">
     </details>
 
-* The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder. (An additional bug also appeared in the `<textarea>` code in my general testing: [detailed here](#booking-form---textarea-text-requires-manual-deletion))
+The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder. (An additional bug also appeared in the `<textarea>` code in my general testing: [detailed here](#booking-form---textarea-text-requires-manual-deletion))
 
 
 With these amendment made there were no further significant accessibility issues in the site.
@@ -366,24 +371,24 @@ With these amendment made there were no further significant accessibility issues
 
 I ran the site through Google Chrome Dev Tools' Lighthouse to check on its performance.
 
-**Original Results**
+#### **Original Results**
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-perf-home-1.jpg">
+<img src="assets/images/readme/val-perf-home-1.jpeg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-perf-about-1.jpg">
+<img src="assets/images/readme/val-perf-about-1.jpeg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-perf-book-1.jpg">
+<img src="assets/images/readme/val-perf-book-1.jpeg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-perf-join-1.jpg">
+<img src="assets/images/readme/val-perf-join-1.jpeg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-perf-thanks-1.jpg">
+<img src="assets/images/readme/val-perf-thanks-1.jpeg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-perf-404-1.jpg">
+<img src="assets/images/readme/val-perf-404-1.jpeg">
 </details>
 
 Whilst the scores were high I wanted to make the following improvements based on the results and suggestions to make sure that the site performed as well as it could
@@ -393,24 +398,24 @@ Whilst the scores were high I wanted to make the following improvements based on
 * removed unused font weights from the CSS `@import` code
 * increased the contrast in the non-active nav links by increasing the opacity (to make them easier to read)
 
-**Final Results**
+#### **Final Results**
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-perf-home-2.jpg">
+<img src="assets/images/readme/val-perf-home-2.jpeg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-perf-about-2.jpg">
+<img src="assets/images/readme/val-perf-about-2.jpeg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-perf-book-2.jpg">
+<img src="assets/images/readme/val-perf-book-2.jpeg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-perf-join-2.jpg">
+<img src="assets/images/readme/val-perf-join-2.jpeg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-perf-thanks-2.jpg">
+<img src="assets/images/readme/val-perf-thanks-2.jpeg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-perf-404-2.jpg">
+<img src="assets/images/readme/val-perf-404-2.jpeg">
 </details>
 
 ### Responsiveness / Device Testing
@@ -505,10 +510,10 @@ During testing I discovered that the thankyou page (after submitting a form) was
 #### **Thankyou Page Responsiveness**
 
 <details><summary>Screenshot - before</summary>
-<img src="assets/images/readme/bugs-thanks-responsive-1.jpg">
+<img src="assets/images/readme/bugs-thanks-responsive-1.jpeg">
 </details>
 <details><summary>Screenshot - after</summary>
-<img src="assets/images/readme/bugs-thanks-responsive-2.jpg">
+<img src="assets/images/readme/bugs-thanks-responsive-2.jpeg">
 </details>
 
 There was also an issue with the 404 & Thankyou pages not displaying all the content on a horizontal small screen device. This was due to these pages being a non-scrolling static page designed to stay fixed on the screen. I fixed this bug by targeting styling changes directly to screens with a max-height value for these pages, this included changing the padding and removing the footer with the social links. This was a compromise that avoided significant styling changes to the footer for a less-used screen size on a page that users won't spend a long time on, that enhances user experience and legibility.
@@ -556,8 +561,6 @@ I tested the site based on my user stories:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Short Bio • Find Out More Button • About Us Text | Scroll down on homepage, read short bio, click on 'find out more' button, read more detail on About Us page | Find information about the band | Works as expected |
-
-
 
 **2. I want to see & hear media content of the band performing:**
 
@@ -667,7 +670,6 @@ You can clone the repository to use locally by following these steps:
 6. Type git clone copied-git-url into the IDE terminal
 
 The project will now be cloned locally for you to use.
-
 
 ## Credits
 
