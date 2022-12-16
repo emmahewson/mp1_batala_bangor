@@ -710,6 +710,11 @@ footer {
         height: 250px;
     }
 
+    .circle-button-sm {
+        right: 0px;
+        margin: 0 auto;
+    }
+
     .testi-single {
         display: flex;
         flex-wrap: wrap;
