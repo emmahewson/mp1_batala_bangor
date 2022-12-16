@@ -767,7 +767,7 @@ footer {
 
 /* Medium Landscape Devices */
 
-@media (max-height: 767px) {
+@media (max-height: 650px) {
     #hero-about {
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0.9) 90%),
         url("../images/hero_about.jpg");

@@ -37,20 +37,17 @@ This is the documentation for Batala Bangor’s new website. It has been built u
         * [Footer](#footer)
         * [Favicon](#favicon)
     * [Home Page](#home-page)
-        * [Short Bio](#short-bio)
-        * [Find Out More Button](#find-out-more-button)
+        * [Bio & Find Out More Button](#bio--find-out-more-button)
         * [Photo Gallery](#home-photo-gallery)
         * [Video](#video)
     * [About Us](#about-us)
         * [About Us Sections](#about-us-sections)
         * [Call To Action](#call-to-action)
     * [Book Us](#book-us)
-        * [Book Us Info](#book-us-info-text)
-        * [Booking Enquiry Form](#booking-enquiry-form)
+        * [Book Us Info & Form](#book-us-info--form)
         * [Testimonials](#testimonials)
     * [Join Us](#join-us)
-        * [Join Us Info](#join-us-info-text)
-        * [Interest in Joining Form](#interest-in-joining-form)
+        * [Join Us Info & Form](#join-us-info--form)
         * [Photo Gallery](#join-photo-gallery)
     * [Other Pages](#other-pages)
         * [Thankyou Page](#thankyou-page)
@@ -228,63 +225,329 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 ### Whole Site
 
-#### Nav Bar
+#### **Nav Bar**
 
-#### Hero Image
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
 
-#### Footer
+<details><summary>Screenshots</summary>
 
-#### Favicon
+<img src="assets/images/readme/feat-1-nav-1.jpeg">
+
+*Navbar - desktop*
+
+<img src="assets/images/readme/feat-1-nav-2.gif">
+
+*Navbar - hover effect*
+
+<img src="assets/images/readme/feat-1-nav-3.jpeg">
+
+*Navbar - mobile*
+
+</details>
+
+
+
+#### **Hero**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/feat-2-hero-1.jpeg">
+
+*Hero - Home on Desktop*
+
+<img src="assets/images/readme/feat-2-hero-2.jpeg">
+
+*Hero - About Us on Desktop*
+
+<img src="assets/images/readme/feat-2-hero-3.jpeg">
+
+*Hero - Book Us on Desktop*
+
+<img src="assets/images/readme/feat-2-hero-4.jpeg">
+
+*Hero - Join Us on Desktop*
+
+<img src="assets/images/readme/feat-2-hero-5.jpeg">
+
+*Hero - Home on Mobile*
+
+</details>
+
+
+
+#### **Footer**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-3-footer-1b.jpeg">
+
+*Footer on Desktop*
+
+<img src="assets/images/readme/feat-3-footer-2.gif">
+
+*Footer Social Links Animation*
+
+<img src="assets/images/readme/feat-3-footer-3b.jpeg">
+
+*Footer on mobile*
+
+</details>
+
+
+
+#### **Favicon**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-4-favicon.jpeg">
+
+*Favicon*
+
+</details>
 
 
 ### Home Page
 
-#### Short Bio
+#### **Bio & Find Out More Button**
 
-#### Find Out More Button
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
 
-#### Home Photo Gallery
+<details><summary>Screenshots</summary>
 
-#### Video
+<img src="assets/images/readme/feat-5-bio-1.jpeg">
+
+*Bio Section and button*
+
+<img src="assets/images/readme/feat-6-button.gif">
+
+*Button animation*
+
+</details>
+
+
+
+#### **Home Photo Gallery**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-7-gallery-1.jpeg">
+
+*Home Photo Gallery - Desktop*
+
+<img src="assets/images/readme/feat-7-gallery-2.jpeg">
+
+*Home Photo Gallery - Tablet*
+
+<img src="assets/images/readme/feat-7-gallery-3.jpeg">
+
+*Home Photo Gallery - Mobile*
+
+</details>
+
+
+
+#### **Video**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-8-vid.jpeg">
+
+*Embedded YouTube Player*
+
+</details>
 
 
 ### About Us
 
-#### About Us Sections
+#### **About Us Sections**
 
-#### Call To Action
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-9-about-1.jpeg">
+
+*About Us - Info & Image Section 1 - Desktop*
+
+<img src="assets/images/readme/feat-9-about-2.jpeg">
+
+*About Us - Info & Image Section 2 - Desktop*
+
+<img src="assets/images/readme/feat-9-about-3.jpeg">
+
+*About Us - Info & Image Section 3 - Desktop*
+
+<img src="assets/images/readme/feat-9-about-4.jpeg">
+
+*About Us - Layout on Tablet*
+
+<img src="assets/images/readme/feat-9-about-5.jpeg">
+
+*About Us - Layout on Mobile*
+
+</details>
+
+
+
+#### **Call To Action**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-10-need.jpeg">
+
+*Call to Action Section - Links to "Book Us" & "Join Us"*
+
+</details>
 
 
 ### Book Us
 
-#### Book Us Info Text
+#### **Book Us Info & Form**
 
-#### Booking Enquiry Form
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
 
-#### Testimonials
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-12-book-1.jpeg">
+
+*Book Us Info & Form - Desktop*
+
+<img src="assets/images/readme/feat-12-book-2.gif">
+
+*Submit Button Animation*
+
+<img src="assets/images/readme/feat-12-book-3.jpeg">
+<img src="assets/images/readme/feat-12-book-4.jpeg">
+
+*Book Us Form & Info Layout - Tablet*
+
+<img src="assets/images/readme/feat-12-book-5.jpeg">
+<img src="assets/images/readme/feat-12-book-6.jpeg">
+
+*Book Us Form & Info Layout - Mobile*
+
+</details>
+
+
+
+#### **Testimonials**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-13-testi-1.jpeg">
+
+*Testimonials - Desktop*
+
+<img src="assets/images/readme/feat-13-testi-2.jpeg">
+
+*Testimonials - Tablet*
+
+<img src="assets/images/readme/feat-13-testi-3.jpeg">
+
+*Testimonials - Mobile*
+
+</details>
 
 
 ### Join Us
 
-#### Join Us Info Text
+#### **Join Us Info & Form**
 
-#### Interest in Joining Form
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
 
-#### Join Photo Gallery
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-14-join-1.jpeg">
+
+*Join Us Info & Form - Desktop*
+
+<img src="assets/images/readme/feat-14-join-2.jpeg">
+<img src="assets/images/readme/feat-14-join-3.jpeg">
+
+*Join Us Form & Info Layout - Tablet*
+
+<img src="assets/images/readme/feat-14-join-4.jpeg">
+<img src="assets/images/readme/feat-14-join-5.jpeg">
+
+*Join Us Form & Info Layout - Mobile*
+
+</details>
+
+
+
+#### **Join Photo Gallery**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-15-gallery-1.jpeg">
+
+*Join Us Photo Gallery - Desktop*
+
+<img src="assets/images/readme/feat-15-gallery-2.jpeg">
+
+*Join Us Photo Gallery - Tablet*
+
+<img src="assets/images/readme/feat-15-gallery-3.jpeg">
+
+*Join Us Photo Gallery - Mobile*
+
+</details>
 
 
 ### Other Pages
 
-#### Thankyou Page
+#### **Thankyou Page**
 
-#### 404 Page
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-16-thanks.jpeg">
+
+*Form Submission - Thankyou Page*
+
+</details>
+
+
+
+#### **404 Page**
+
+Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/feat-17-404.jpeg">
+
+*Form Submission - Thankyou Page*
+
+</details>
 
 
 ### Future Features
-Future Plans
-Upcoming gigs are key - including recent events also a good idea
-Idea - include links to other Batala bands around the world - interactive map!! (Future plan)
-Idea - include call out for videos/photos that people may have taken in gallery
+
+There are some additional features that I would like to add to the site in the future. They fell outside the scope of this project based on the top priority client and user needs but they would be useful additions later on.
+
+#### **Gig Listings**
+A page with an up to date gigs list for people to keep track of where the band will be playing.
+
+#### **Batala Mundo Map**
+An interactive map of the world showing locations of all the Batala bands around the world with clickable links to each band's website.
 
 
 ## Testing & Bugs
@@ -523,7 +786,7 @@ There was also an issue with the 404 & Thankyou pages not displaying all the con
 #### **Safari not displaying images**
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/safari-images.jpg">
+<img src="assets/images/readme/bugs-safari-images.jpg">
 </details>
 
 A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were sucessful using jpgs with no impact on the performance score.
