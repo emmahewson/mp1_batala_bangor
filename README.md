@@ -33,6 +33,7 @@
         * [Nav Bar](#whole-site)
         * [Hero Image](#hero-image)
         * [Footer](#footer)
+        * [Favicon](#favicon)
     * [Home Page](#home-page)
         * [Short Bio](#short-bio)
         * [Find Out More Button](#find-out-more-button)
@@ -146,16 +147,16 @@ I chose to have a bright, clean, bold design using the Batala colours of red, wh
 I decided to create a fully designed site in Figma before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
 
 <details><summary>Home</summary>
-<img src="assets/images/readme/wireframes-home.webp">
+<img src="assets/images/readme/wireframes-home.png">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/wireframes-about.webp">
+<img src="assets/images/readme/wireframes-about.png">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/wireframes-book.webp">
+<img src="assets/images/readme/wireframes-book.png">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/wireframes-join.webp">
+<img src="assets/images/readme/wireframes-join.png">
 </details>
 
    
@@ -175,14 +176,14 @@ The site has a simple structure made up of 4 pages:
 The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. However I have designed a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it.
 The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis given to BOOK at the end as this is a more important goal for the band.)
 
-![Find Out More Button](assets/images/readme/wireframes-navroute-button-1.webp)
-![Book Us / Join Link](assets/images/readme/wireframes-navroute-button-2.webp)
+![Find Out More Button](assets/images/readme/wireframes-navroute-button-1.jpg)
+![Book Us / Join Link](assets/images/readme/wireframes-navroute-button-2.jpg)
 
 #### Colour
 
 I chose to use muted versions of the Batala brand colours of black, white and red as using a full primary red and 100% black was quite garish and hard on the eyes. This helped to keep the site bright, friendly and bold.
 
-![Colour Pallette](assets/images/readme/color-pallette-01.webp)
+![Colour Pallette](assets/images/readme/color-pallette-01.jpg)
 
 
 #### Fonts
@@ -228,6 +229,8 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 #### Hero Image
 
 #### Footer
+
+#### Favicon
 
 
 ### Home Page
@@ -286,22 +289,22 @@ Idea - include call out for videos/photos that people may have taken in gallery
 
 I ran the code for all the pages through the [W3C HTML Validator](https://validator.w3.org/nu/).
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-html-index-1.webp">
+<img src="assets/images/readme/val-html-index-1.jpg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-html-about-1.webp">
+<img src="assets/images/readme/val-html-about-1.jpg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-html-book-1.webp">
+<img src="assets/images/readme/val-html-book-1.jpg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-html-join-1.webp">
+<img src="assets/images/readme/val-html-join-1.jpg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-html-thankyou-1.webp">
+<img src="assets/images/readme/val-html-thankyou-1.jpg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-html-404-1.webp">
+<img src="assets/images/readme/val-html-404-1.jpg">
 </details>
 
 **Results**
@@ -314,17 +317,17 @@ They fell under 2 categories
 
 **HTML Validation - Post Fixes**
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-html-book-2.webp">
+<img src="assets/images/readme/val-html-book-2.jpg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-html-join-2.webp">
+<img src="assets/images/readme/val-html-join-2.jpg">
 </details>
 
 ### CSS Validation
 
 I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were no errors, there were a number of warnings but the validator was simply flagging up that it couldn't check the external Bootstrap stylesheet.
 <details><summary>CSS Validation Results</summary>
-<img src="assets/images/readme/val-css-1.webp">
+<img src="assets/images/readme/val-css-1.jpg">
 </details>
 
 ### Accessibility
@@ -332,7 +335,7 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
 
 <details><summary><strong>1. Wave Web Tool Contrast Error </strong><em>(screenshot on dropdown)</em></summary>
-    <img src="assets/images/readme/val-acc-prob1-3.webp">
+    <img src="assets/images/readme/val-acc-prob1-3.jpg">
     </details>
 
 * The tool raised some contrast errors in the text elements in the footer social links with a class of 'sr-only' (which are hidden by the Bootstrap styling).
@@ -342,14 +345,14 @@ I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave
 * I was unable to come up with a solution, however because the `sr-only` elements are invisible so low contrast wouldn't make any difference to them I didn't think this would have an overall impact on the accessibility of the site.
 
 <details><summary><strong>2. Wave Web Tool Heading Error </strong><em>(screenshots on dropdown)</em></summary>
-    <img src="assets/images/readme/val-acc-prob2-1.webp">
-    <img src="assets/images/readme/val-acc-prob2-2.webp">
+    <img src="assets/images/readme/val-acc-prob2-1.jpg">
+    <img src="assets/images/readme/val-acc-prob2-2.jpg">
     </details>
 
 * The tool raised a number of issues with the ordering of the heading elements, including not starting with an `<h1>` and certain situations where an `<h3>` was before an `<h2>`. In the development process I had used the heading elements more as styling classes than thinking about them in terms of accessibility and content. In order to solve this problem I made multiple changes to the HTML and CSS code, including using classes to style the text, rather than the heading elements themselves, and making sure that they were in the correct order on each page.
 
 <details><summary><strong>1. Wave Web Tool Label Error Screenshot</strong></summary>
-    <img src="assets/images/readme/val-acc-prob3.webp">
+    <img src="assets/images/readme/val-acc-prob3.jpg">
     </details>
 
 * The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder. (An additional bug also appeared in the `<textarea>` code in my general testing: [detailed here](#booking-form---textarea-text-requires-manual-deletion))
@@ -363,22 +366,22 @@ I ran the site through Google Chrome Dev Tools' Lighthouse to check on its perfo
 
 **Original Results**
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-perf-home-1.webp">
+<img src="assets/images/readme/val-perf-home-1.jpg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-perf-about-1.webp">
+<img src="assets/images/readme/val-perf-about-1.jpg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-perf-book-1.webp">
+<img src="assets/images/readme/val-perf-book-1.jpg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-perf-join-1.webp">
+<img src="assets/images/readme/val-perf-join-1.jpg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-perf-thanks-1.webp">
+<img src="assets/images/readme/val-perf-thanks-1.jpg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-perf-404-1.webp">
+<img src="assets/images/readme/val-perf-404-1.jpg">
 </details>
 
 Whilst the scores were high I wanted to make the following improvements based on the results and suggestions to make sure that the site performed as well as it could
@@ -390,22 +393,22 @@ Whilst the scores were high I wanted to make the following improvements based on
 
 **Final Results**
 <details><summary>Home</summary>
-<img src="assets/images/readme/val-perf-home-2.webp">
+<img src="assets/images/readme/val-perf-home-2.jpg">
 </details>
 <details><summary>About Us</summary>
-<img src="assets/images/readme/val-perf-about-2.webp">
+<img src="assets/images/readme/val-perf-about-2.jpg">
 </details>
 <details><summary>Book Us</summary>
-<img src="assets/images/readme/val-perf-book-2.webp">
+<img src="assets/images/readme/val-perf-book-2.jpg">
 </details>
 <details><summary>Join Us</summary>
-<img src="assets/images/readme/val-perf-join-2.webp">
+<img src="assets/images/readme/val-perf-join-2.jpg">
 </details>
 <details><summary>Thankyou</summary>
-<img src="assets/images/readme/val-perf-thanks-2.webp">
+<img src="assets/images/readme/val-perf-thanks-2.jpg">
 </details>
 <details><summary>404</summary>
-<img src="assets/images/readme/val-perf-404-2.webp">
+<img src="assets/images/readme/val-perf-404-2.jpg">
 </details>
 
 ### Responsiveness / Device Testing
@@ -526,7 +529,7 @@ During development I created 'buttons' which had a hover CSS animation on them w
 ### Booking Form - Date Input Styling
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/bugs-book-form-date.webp">
+<img src="assets/images/readme/bugs-book-form-date.jpg">
 </details>
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
@@ -534,7 +537,7 @@ During testing on an Apple iPhone SE I discovered that the date input styling wa
 ### Booking Form - Broken Logo
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/bugs-logo-broken.webp">
+<img src="assets/images/readme/bugs-logo-broken.jpg">
 </details>
 
 After optimising the images by converting them to webp I missed updating the relative path in book-us.html and had the logo failed to load. I fixed this by updating the code with the new file name.
@@ -542,7 +545,7 @@ After optimising the images by converting them to webp I missed updating the rel
 ### Booking Form - Textarea text requires manual deletion
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/bugs-textarea.webp">
+<img src="assets/images/readme/bugs-textarea.jpg">
 </details>
 
 During testing I noticed that the text within the `<textarea>` on both forms needed manually deleting before a user could enter their own message. I fixed this by deleting the text between the `<textarea>` tags and adding a `placeholder` attribute with the same content.
@@ -550,7 +553,7 @@ During testing I noticed that the text within the `<textarea>` on both forms nee
 ### Thankyou/404 Page Layout
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/bugs-thanks-layout.webp">
+<img src="assets/images/readme/bugs-thanks-layout.jpg">
 </details>
 
 During testing I discovered that the thankyou page (after submitting a form) was displaying with an incorrect layout when the window was wider than 1300px. This was also happening on the 404 page. This issue appeared to be caused by the unique layout of these pages which were designed not to scroll, this somehow cause the max-width on the body to not apply to these footers. After some experimentation I fixed this issue by targeting the footer on these pages and using the following CSS styling:
@@ -567,10 +570,10 @@ During testing I discovered that the thankyou page (after submitting a form) was
 ### Thankyou Page Responsiveness
 
 <details><summary>Screenshot - before</summary>
-<img src="assets/images/readme/bugs-thanks-responsive-1.webp">
+<img src="assets/images/readme/bugs-thanks-responsive-1.jpg">
 </details>
 <details><summary>Screenshot - after</summary>
-<img src="assets/images/readme/bugs-thanks-responsive-2.webp">
+<img src="assets/images/readme/bugs-thanks-responsive-2.jpg">
 </details>
 
 There was also an issue with the 404 & Thankyou pages not displaying all the content on a horizontal small screen device. This was due to these pages being a non-scrolling static page designed to stay fixed on the screen. I fixed this bug by targeting styling changes directly to screens with a max-height value for these pages, this included changing the padding and removing the footer with the social links. This was a compromise that avoided significant styling changes to the footer for a less-used screen size on a page that users won't spend a long time on, that enhances user experience and legibility.
@@ -578,7 +581,7 @@ There was also an issue with the 404 & Thankyou pages not displaying all the con
 ### Safari not displaying images
 
 <details><summary>Screenshot</summary>
-<img src="assets/images/readme/safari-images.webp">
+<img src="assets/images/readme/safari-images.jpg">
 </details>
 
 A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were sucessful using jpgs with no impact on the performance score.
