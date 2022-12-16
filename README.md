@@ -534,6 +534,14 @@ During development I created 'buttons' which had a hover CSS animation on them w
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
+### Booking Form - Submit Button on Mobile
+
+<details><summary>Screenshot</summary>
+<img src="assets/images/readme/bugs-submit-mobile.jpg">
+</details>
+
+During testing on an Apple iPhone SE I discovered that the SUBMIT text had disappeared from the button.
+
 ### Booking Form - Broken Logo
 
 <details><summary>Screenshot</summary>
