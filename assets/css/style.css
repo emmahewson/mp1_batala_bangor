@@ -532,7 +532,7 @@ textarea:focus {
 /*----------------------Submit Buttons */
 
 .submit-btn-txt {
-    color: black;
+    color: #282727;
     font-size: 12.5px;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;

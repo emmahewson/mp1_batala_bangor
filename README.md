@@ -61,8 +61,8 @@
     * [Performance](#performance)
     * [Responsiveness / Device Testing](#responsiveness--device-testing)
     * [Browser Compatibility](#browser-compatibility)
-    * [Testing User Stories](#testing-user-stories)
     * [Bugs & Fixes](#bugs--fixes)
+    * [Testing User Stories](#testing-user-stories)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -205,15 +205,17 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 * [Gitpod](https://www.gitpod.io/)
     * Used to create, edit & preview the project's code
 * [Figma](https://www.figma.com/)
-    * Used to develop the wireframes in to a full mockup including colours, fonts, proportions etc.
+    * Used to develop the wireframes in to a full mockup including colours, fonts, proportions etc
+* [Favicon.io](https://favicon.io/favicon-converter/)
+    * Used to create and add the favicon to the browser tab
 * [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
-    * Used to help create the colour pallette as well as designing some of the graphic elements such as the buttons.
+    * Used to help create the colour pallette as well as designing some of the graphic elements such as the buttons
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
     * Used to crop, adjust and resize the photos to optimise them for the site
 * [Image Optim](https://imageoptim.com)
     * Used to further optimise the images for the site
 * [Bootstrap 5.2.3](https://getbootstrap.com/)
-    * Bootstrap was used to help with the responsiveness of the site and to aid the coding of some of the layout, inlcluding the nav bar, the hero images & the photo galleries.
+    * Used to help with the responsiveness of the site and to aid the coding of some of the layout, inlcluding the nav bar, the hero images & the photo galleries
 * [Google Fonts](https://fonts.google.com/)
     * Used to select & import the fonts to the project (Poppins & Fira Sans)
 * [Font Awesome](https://fontawesome.com/)
@@ -432,86 +434,11 @@ The site was tested on the following browsers
 
 There were no issues on Chrome and Firefox but Safari did throw up a major bug. [More details below of the bug and fix below.](#safari-not-displaying-images)
 
-### Testing User Stories
-
-I tested the site based on my user stories:
-
-1. I want to find out information about the band:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-2. I want to see & hear media content of the band performing:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-3. I want to see feedback from previous events:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-4. I want to find links to social media for more information and to interact with the band:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-5. I want to contact the band to enquire about booking:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-6. I want to find out about commitment & experience required to join & opportunities for members:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-7. I want to contact the band to express an interest in joining:
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| ***** | ***** | ***** | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-
 ### Bugs & Fixes
 
 During development and testing, in addition to the improvements described in the validation section above, I encountered the following bugs:
 
-### Animated button lines on no-hover devices
+#### **Animated button lines on no-hover devices**
 
 During development I created 'buttons' which had a hover CSS animation on them where lines animated out from behind the circle (designed to represent drum vibrations.) However I wanted the lines to be visible on devices where there was no hover available (e.g. touchscreen). My solution was to create an additional media query for devices without a hover function that changed the starting values for the scale transform to the final values of the animation.
 
@@ -526,7 +453,7 @@ During development I created 'buttons' which had a hover CSS animation on them w
     }
 </details>
 
-### Booking Form - Date Input Styling
+#### **Booking Form - Date Input Styling**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-book-form-date.jpg">
@@ -534,15 +461,15 @@ During development I created 'buttons' which had a hover CSS animation on them w
 
 During testing on an Apple iPhone SE I discovered that the date input styling wasn't working correctly and the input box didn't match the styling of the others. In order to fix this bug I changed the input type to 'text' as I this would allow the styling to render properly and also give the user more flexibility about what data they enter if, for example, the event ran over multiple days. This solution worked well in this situation but a solution to the cause of the problem would need further investigation should I need to use a date input in the future.
 
-### Booking Form - Submit Button on Mobile
+#### **Booking Form - Submit Button on Mobile**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-submit-mobile.jpg">
 </details>
 
-During testing on an Apple iPhone SE I discovered that the SUBMIT text had disappeared from the button.
+During testing on an Apple iPhone SE I discovered that the SUBMIT text had disappeared from the button. This was tricky to diagnose as it was only appearing on my mobile device, not on dev tools. I attempted a variety of fixes including changing the z-index. I fixed this issue by giving the SUBMIT button text an explicit colour, as I discovered the text was there but was displaying in white, so it was invisible against the white background.
 
-### Booking Form - Broken Logo
+#### **Booking Form - Broken Logo**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-logo-broken.jpg">
@@ -550,7 +477,7 @@ During testing on an Apple iPhone SE I discovered that the SUBMIT text had disap
 
 After optimising the images by converting them to webp I missed updating the relative path in book-us.html and had the logo failed to load. I fixed this by updating the code with the new file name.
 
-### Booking Form - Textarea text requires manual deletion
+#### **Booking Form - Textarea text requires manual deletion**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-textarea.jpg">
@@ -558,7 +485,7 @@ After optimising the images by converting them to webp I missed updating the rel
 
 During testing I noticed that the text within the `<textarea>` on both forms needed manually deleting before a user could enter their own message. I fixed this by deleting the text between the `<textarea>` tags and adding a `placeholder` attribute with the same content.
 
-### Thankyou/404 Page Layout
+#### **Thankyou/404 Page Layout**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-thanks-layout.jpg">
@@ -575,7 +502,7 @@ During testing I discovered that the thankyou page (after submitting a form) was
     }
 </details>
 
-### Thankyou Page Responsiveness
+#### **Thankyou Page Responsiveness**
 
 <details><summary>Screenshot - before</summary>
 <img src="assets/images/readme/bugs-thanks-responsive-1.jpg">
@@ -586,7 +513,7 @@ During testing I discovered that the thankyou page (after submitting a form) was
 
 There was also an issue with the 404 & Thankyou pages not displaying all the content on a horizontal small screen device. This was due to these pages being a non-scrolling static page designed to stay fixed on the screen. I fixed this bug by targeting styling changes directly to screens with a max-height value for these pages, this included changing the padding and removing the footer with the social links. This was a compromise that avoided significant styling changes to the footer for a less-used screen size on a page that users won't spend a long time on, that enhances user experience and legibility.
 
-### Safari not displaying images
+#### **Safari not displaying images**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/safari-images.jpg">
@@ -594,7 +521,7 @@ There was also an issue with the 404 & Thankyou pages not displaying all the con
 
 A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were sucessful using jpgs with no impact on the performance score.
 
-**Lighthouse Results with JPG Images**
+Lighthouse Results with JPG Images
 <details><summary>Home</summary>
 <img src="assets/images/readme/bugs-val-index.jpeg">
 </details>
@@ -613,6 +540,102 @@ A major bug I encountered when testing on Safari was that it didn't display webp
 <details><summary>404</summary>
 <img src="assets/images/readme/bugs-val-404.jpeg">
 </details>
+
+### Testing User Stories
+
+I tested the site based on my user stories:
+
+**1. I want to find out information about the band:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-1-1.jpeg">
+<img src="assets/images/readme/us-1-2.jpeg">
+<img src="assets/images/readme/us-1-3.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Short Bio • Find Out More Button • About Us Text | Scroll down on homepage, read short bio, click on 'find out more' button, read more detail on About Us page | Find information about the band | Works as expected |
+
+
+
+**2. I want to see & hear media content of the band performing:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-2-1.jpeg">
+<img src="assets/images/readme/us-2-2.jpeg">
+<img src="assets/images/readme/us-2-3.jpeg">
+<img src="assets/images/readme/us-2-4.jpeg">
+<img src="assets/images/readme/us-2-5.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Site-Wide Images • Photo Galleries • Video | Hero images on all pages, scroll down to photo gallery and video on home page. Images on About Us page. Photo Gallery on Join Us page. | Photo and Video content throughout site | Works as expected |
+
+**3. I want to see feedback from previous events:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-3-1.jpeg">
+<img src="assets/images/readme/us-3-2.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Testimonials| Click on "BOOK US" on nav, scroll down to read testimonials. | User can read feedback from previous events and fans. | Works as expected |
+
+**4. I want to find links to social media for more information and to interact with the band:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-4-1.jpeg">
+<img src="assets/images/readme/us-4-2.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Links in Footer | Scroll to the bottom of main pages, click on footer social media links | User can click through to social media with all links opening in a separate tab. | Works as expected |
+
+**5. I want to contact the band to enquire about booking:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-5-1.jpeg">
+<img src="assets/images/readme/us-5-2.jpeg">
+<img src="assets/images/readme/us-5-3.jpeg">
+<img src="assets/images/readme/us-5-4.jpeg">
+<img src="assets/images/readme/us-5-5.jpeg">
+<img src="assets/images/readme/us-5-6.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Booking Form • Booking Information Text | Click on "BOOK US" on nav, fill in form or click on email address link to send email to band. | User has 2 options for contacting the band. Email opens email client with address pre-filled. Form: all form inputs must be filled to submit. Submission leads to 'thankyou' page with links back to main site. | Works as expected |
+
+**6. I want to find out about commitment & experience required to join & opportunities for members:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-6-1.jpeg">
+<img src="assets/images/readme/us-6-2.jpeg">
+<img src="assets/images/readme/us-6-3.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Join Us Text | Click on "JOIN US" on nav, scroll down to read Join Us text, click on "find out more about us" to link to "About Us" page for more general information. | User finds text information about joining the band. | Works as expected |
+
+**7. I want to contact the band to express an interest in joining:**
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/us-7-1.jpeg">
+<img src="assets/images/readme/us-7-2.jpeg">
+<img src="assets/images/readme/us-7-3.jpeg">
+<img src="assets/images/readme/us-7-4.jpeg">
+<img src="assets/images/readme/us-7-5.jpeg">
+<img src="assets/images/readme/us-7-6.jpeg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Join Us Form • Join Us Contact Email | Click on "JOIN US" on nav, scroll down to Join Us Form, fill in form or click on email address link in text to send email to band. | User has 2 options for contacting the band. Email opens email client with address pre-filled. Form: all form inputs must be filled to submit. Submission leads to 'thankyou' page with links back to main site. | Works as expected |
 
 ## Deployment
 
@@ -651,6 +674,8 @@ The project will now be cloned locally for you to use.
 ### Code
 
 * [Bootstrap 5](https://getbootstrap.com/): Boostrap library used throughout the project for layout and responsiveness using the Bootstrap Grid System.
+
+* [Favicon.io](https://favicon.io/favicon-converter/): Used to create the site Favicon and provided the code in the head of all pages.
 
 ### Content
 
