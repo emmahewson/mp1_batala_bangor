@@ -1,11 +1,11 @@
 # Batala Bangor Website
-#### By Emma Hewson
 
 ![Batala Bangor Website Mock-up](assets/images/readme/mockup-1.jpg)
 
+#### **By Emma Hewson**
 [Click here to view the live web application](https://emmahewson.github.io/mp1_batala_bangor/index.html)
 
-**BATALA HEY!**
+#### **BATALA HEY!**
 
 This is the documentation for Batala Bangor’s new website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Diploma in Web Application Development Course.
 
@@ -72,17 +72,17 @@ I followed the principles of User Experience (UX) in the planning and developmen
 
 ### Project Goals
 
-#### Client Background
+#### **Client Background**
 Batala Bangor is a samba reggae drumming group based in North Wales. Each summer the band perform at carnivals, fairs, festivals and events across North Wales and beyond. Anyone can join and no experience is required. The music that Batala Bangor plays originates in Salvador, Brazil, and Batala Bangor is one of over 40 Batala bands worldwide who all play the same rhythms and meet up regularly for international events.
 
-#### Client Goals
+#### **Client Goals**
 
-* For the band to get booked for more / better events
+* For the band to get booked for more / better events (Primary Goal)
 * To have a more professional appearance
 * To attract new members
 * To share information about our band, our music and the global Batala community
 
-#### User Goals
+#### **User Goals**
 
 The website will be for different types of users with different motivations and goals [further details below](#user-stories):
 * An event organiser looking to book the band
@@ -92,17 +92,17 @@ The website will be for different types of users with different motivations and 
 
 ### Research
 
-#### Market Review
+#### **Market Review**
 
 I conducted a market review which included other bands in North Wales, drumming groups and other Batala bands across the UK (links below). I looked at their websites & social media accounts, how they presented and promoted themselves, what content and features they offered, how it was laid out, what worked and what didn’t.
 
 [Bloco Swn](https://colindaimond.co.uk/) | [Cowbois Celtaidd](https://www.reverbnation.com/cowboisceltaidd) | [Katumba](https://katumba.co.uk/) | [Batala Mersey](https://www.batalamersey.com/) | [Batala Portsmouth](https://www.batalaportsmouth.com/home) | [Batala Bermo](https://www.batalabermo.co.uk/)
 
-#### Existing Product Audit
+#### **Existing Product Audit**
 
 [Batala Bangor](http://www.batalabangor.com/) has an existing website that is in need of updating. I did a full review of the site, what worked well, what needed updating, what was missing and a general assessment of the content, features, design, layout and style.
 
-#### Key Takeaways from Market Review & Existing Project Audit
+#### **Key Takeaways from Market Review & Existing Project Audit**
 * Who, what & where the band is should be immediately obvious
 * Keep it clean and simple
 * Keep text short and impactful
@@ -115,21 +115,21 @@ I conducted a market review which included other bands in North Wales, drumming 
 
 ### User Stories
 
-**User Story 1: As an event organiser interested in booking the band I want to:**
+#### **User Story 1: As an event organiser interested in booking the band I want to:**
 * find out information about the band
 * see & hear media content of the band performing
 * see feedback from previous events
 * find links to social media for more information and content
 * contact the band to find out more & to enquire about booking
 
-**User Story 2: As someone interested in joining the band I want to:**
+#### **User Story 2: As someone interested in joining the band I want to:**
 * find out general information about the band and music
 * see & hear media content of the band performing
 * find social media links to interact with the band
 * find out about commitment & experience required to join and opportunities for members
 * contact the band to express an interest in joining
 
-**User Story 3: As a fan of the band I want to:**
+#### **User Story 3: As a fan of the band I want to:**
 * find out general information about the band and the music
 * see & hear the band performing
 * find social media link to interact with the band and find out about future events
@@ -141,7 +141,7 @@ Based on my earlier research and by defining my user stories I was able to creat
 
 I chose to have a bright, clean, bold design using the Batala colours of red, white and black, with lots of visual content such as large eye-catching images.
 
-#### Wireframes
+#### **Wireframes**
 
 I decided to create a fully designed site in Figma before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
 
@@ -159,7 +159,7 @@ I decided to create a fully designed site in Figma before moving on to coding. T
 </details>
 
    
-#### Structure
+#### **Structure**
 
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could.
 
@@ -172,20 +172,32 @@ The site has a simple structure made up of 4 pages:
     * A thank you page for when a user has submitted a form
     * A 404 page for when a user lands on a non-existent page
 
-The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. However I have designed a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it.
-The suggested route is: HOME > ABOUT > BOOK/JOIN (with the priority & emphasis given to BOOK at the end as this is a more important goal for the band.)
+The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go.
 
-![Find Out More Button](assets/images/readme/wireframes-navroute-button-1.jpg)
-![Book Us / Join Link](assets/images/readme/wireframes-navroute-button-2.jpg)
+There is also another method of navigation, a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it. This is designed primarily for people who want to book the band (as this is the primary goal for the client) but with a secondary option for people who want to join.
 
-#### Colour
+The suggested route is: HOME > ABOUT > BOOK/JOIN
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/wireframes-navroute-button-1.jpg">
+<img src="assets/images/readme/wireframes-navroute-button-2.jpg">
+
+*Buttons that the user would use to navigate through the site on this route*
+
+
+
+</details>
+
+
+#### **Colour**
 
 I chose to use muted versions of the Batala brand colours of black, white and red as using a full primary red and 100% black was quite garish and hard on the eyes. This helped to keep the site bright, friendly and bold.
 
 ![Colour Pallette](assets/images/readme/color-pallette-01.jpg)
 
 
-#### Fonts
+#### **Fonts**
 
 I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://fonts.google.com/specimen/Poppins) (with a fallback of Sans Serif) for the main body text. I felt this had a friendly, rounded shape that suited the site design, good legibility and a range of weights. I used [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) (with a fallback of Sans Serif) for the headings. I chose it because it had good contrast with the body font and had a strong bold look to have good legibility over images as well as a contrasting thin versions which would make it flexible for different heading types.
 
@@ -227,7 +239,12 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 #### **Nav Bar**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* Appears on all pages
+* Contains the logo, the name of the band (on larger screens) and nav links to all the main pages
+* The navbar is fully responsive
+* On larger devices the navbar stays fixed at the top of the screen as the user scrolls
+* The page that the user is currently on is highlighted
+* There is a hover effect on the other nav links
 
 <details><summary>Screenshots</summary>
 
@@ -249,7 +266,12 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Hero**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* Each main page features a hero image with the title of the page as a text header.
+* The home page has a large hero image designed to take up a large proportion of the viewing window, so that the first thing the user sees is a strong, large image of the band. The size of this has been designed to leave a small part of the next container visible as a hint to encourage the user to scroll down.
+    * On smaller screen sizes this size is reduced to work better with the aspect ratio of the photo and to provide a better user experience
+* The images have a gradient over them to improve the legibility of the text.
+* This hero is responsive, with the text, layout and gradient changing on different size screens in portrait and landscape, for legibility and aesthetic purposes.
+* The JOIN, BOOK and ABOUT pages have a smaller hero image container to give more space to other more important features on these pages.
 
 <details><summary>Screenshot</summary>
 
@@ -279,7 +301,11 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Footer**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* The footer appears on all pages
+    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou-page-responsiveness)
+* The footer has a unique design of a partial circle and an outer stroke. This is a bespoke design that I created for the brand and is repeated in the button design.
+* The footer contains links to social media pages, all of which open in a separate tab.
+* The footer is designed to work on any screen size down to the smallest mobile screens.
 
 <details><summary>Screenshots</summary>
 
@@ -301,7 +327,7 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Favicon**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* The favicon is a feature I added to display the Batala Bangor logo in the top tab of the site. This helps to build the brand and to make the site easier to pick out from other tabs for the user.
 
 <details><summary>Screenshots</summary>
 
@@ -316,7 +342,12 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Bio & Find Out More Button**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* The first section that the user arrives after the hero is a large, bright red container with a brief bio of the band.
+* This will give the user an immediate understanding of who the band is and what they do.
+* There is also an animated button to encourage the user to find out more about the band (link to About Us)
+    * This button has CSS animation on hover devices. The lines represent the vibrations coming off a drum.
+    * The animation is disabled on non-hover devices, so the lines are permenantly visible.
+* This button gives the user another navigation route through the site, an alternative to navigating using the navbar.
 
 <details><summary>Screenshots</summary>
 
@@ -334,7 +365,9 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Home Photo Gallery**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* A fully responsive photo gallery containing square images.
+* This will give the user lots of strong visuals of the band playing to help build a sense of who they are and what they do.
+* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -356,7 +389,10 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Video**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* An embedded YouTube video player featuring Batala Mundo playing.
+* The player is designed not to autoplay so the user is not surprised by sudden moving video.
+* The player has bespoke sizing which adjusts on different screen sizes.
+* The player has built in features such as, play controls, a full screen button and volume control to give the user full control of the video.
 
 <details><summary>Screenshots</summary>
 
@@ -371,7 +407,10 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **About Us Sections**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* 3 sections containing text and a strong image with information about different aspects of the band.
+* The sections are fully responsive and stack vertically with styling and layout changes on smaller screens.
+* The images have a rounded edge to continue the circular design style used elsewhere on the site.
+
 
 <details><summary>Screenshots</summary>
 
@@ -401,7 +440,9 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Call To Action**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* Underneath the About Us sections the user is encouraged to click on a "BOOK US" button to link to the relevant section of the site.
+    * The button has the same styling & animation as the "FIND OUT MORE" button
+* There is also a smaller link to the "JOIN US" page. This allows users who are interested in joining rather than booking to easily find what they are looking for.
 
 <details><summary>Screenshots</summary>
 
@@ -416,7 +457,14 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Book Us Info & Form**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* Text information and a booking form to enquire about booking the band
+* On desktop these sit side by side but on smaller screens they stack.
+    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
+    * There are also some layout changes to make the order change and headings make sense
+* The submit button has the same styling and animation as the other buttons
+* All form elements are required and must be filled in
+* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
+* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 
 <details><summary>Screenshots</summary>
 
@@ -444,7 +492,9 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Testimonials**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* A series of quotes from previous events giving positive feedback about the band with small circular thumbnail images to make the text a bit more compelling and eye-catching.
+* This gives the person interested in booking some reassurance about what they're booking.
+* This section is responsive, stacking in to a single column on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -467,8 +517,14 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Join Us Info & Form**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
-
+* Text information and an expression of interest form to enquire about joining the band
+* On desktop these sit side by side but on smaller screens they stack.
+    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
+    * There are also some layout changes to make the order change and headings make sense
+* The submit button has the same styling and animation as the other buttons
+* All form elements are required and must be filled in
+* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
+* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 <details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/feat-14-join-1.jpeg">
@@ -491,7 +547,9 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Join Photo Gallery**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* A fully responsive photo gallery containing square images.
+* This will give someone an idea of who is in the band, the types of events that we play at and seeing smiling people will hopefully encourage them to join.
+* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -514,7 +572,10 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **Thankyou Page**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* A simple page that appears when a user submits a form
+* Improves user experience - reassures the user that the form has sent correctly
+* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
+* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 <details><summary>Screenshots</summary>
 
@@ -528,7 +589,10 @@ Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!
 
 #### **404 Page**
 
-Placeholder text describing feature goes here - THIS TEXT NEEDS TO BE REPLACED!!!!!!!!!!!!!!!!!!
+* A simple page that appears when a user ends up on a page that doesn't exist
+* Improves user experience - by having a branded 404 page a user is less annoyed by something going wrong, the site looks more professional and it will hopefully provide a more positive emotional response than a generic 404 page that makes the user feel they have moved completely off the Batala Bangor site.
+* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
+* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 <details><summary>Screenshots</summary>
 
@@ -772,7 +836,7 @@ During testing I discovered that the thankyou page (after submitting a form) was
     }
 </details>
 
-#### **Thankyou Page Responsiveness**
+#### **Thankyou/404 Page Responsiveness**
 
 <details><summary>Screenshot - before</summary>
 <img src="assets/images/readme/bugs-thanks-responsive-1.jpeg">
@@ -815,7 +879,7 @@ Lighthouse Results with JPG Images
 
 I tested the site based on my user stories:
 
-**1. I want to find out information about the band:**
+#### **1. I want to find out information about the band:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-1-1.jpeg">
@@ -827,7 +891,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Short Bio • Find Out More Button • About Us Text | Scroll down on homepage, read short bio, click on 'find out more' button, read more detail on About Us page | Find information about the band | Works as expected |
 
-**2. I want to see & hear media content of the band performing:**
+#### **2. I want to see & hear media content of the band performing:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-2-1.jpeg">
@@ -841,7 +905,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Site-Wide Images • Photo Galleries • Video | Hero images on all pages, scroll down to photo gallery and video on home page. Images on About Us page. Photo Gallery on Join Us page. | Photo and Video content throughout site | Works as expected |
 
-**3. I want to see feedback from previous events:**
+#### **3. I want to see feedback from previous events:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-3-1.jpeg">
@@ -852,7 +916,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Testimonials| Click on "BOOK US" on nav, scroll down to read testimonials. | User can read feedback from previous events and fans. | Works as expected |
 
-**4. I want to find links to social media for more information and to interact with the band:**
+#### **4. I want to find links to social media for more information and to interact with the band:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-4-1.jpeg">
@@ -863,7 +927,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Social Media Links in Footer | Scroll to the bottom of main pages, click on footer social media links | User can click through to social media with all links opening in a separate tab. | Works as expected |
 
-**5. I want to contact the band to enquire about booking:**
+#### **5. I want to contact the band to enquire about booking:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-5-1.jpeg">
@@ -878,7 +942,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Booking Form • Booking Information Text | Click on "BOOK US" on nav, fill in form or click on email address link to send email to band. | User has 2 options for contacting the band. Email opens email client with address pre-filled. Form: all form inputs must be filled to submit. Submission leads to 'thankyou' page with links back to main site. | Works as expected |
 
-**6. I want to find out about commitment & experience required to join & opportunities for members:**
+#### **6. I want to find out about commitment & experience required to join & opportunities for members:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-6-1.jpeg">
@@ -890,7 +954,7 @@ I tested the site based on my user stories:
 |-------------|------------|---------------------|-------------------|
 | Join Us Text | Click on "JOIN US" on nav, scroll down to read Join Us text, click on "find out more about us" to link to "About Us" page for more general information. | User finds text information about joining the band. | Works as expected |
 
-**7. I want to contact the band to express an interest in joining:**
+#### **7. I want to contact the band to express an interest in joining:**
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-7-1.jpeg">
@@ -950,10 +1014,10 @@ The project will now be cloned locally for you to use.
 
 ### Media
 
-#### Video
+#### **Video**
 * Batala Mundo at the Notting Hill Carnival 2018: [Robert Werner](https://www.youtube.com/watch?v=l4y8UoNgOng)
 
-#### Photos
+#### **Photos**
 * Home Page
     * Header Image: [Batala Bangor](https://www.facebook.com/photo/?fbid=10227121941141799&set=a.10200410283327048)
     * Photo Gallery
