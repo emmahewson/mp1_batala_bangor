@@ -33,7 +33,7 @@ This is the documentation for Batala Bangor’s new website. It has been built u
 3. [Features](#features)
     * [Whole Site](#whole-site)
         * [Nav Bar](#whole-site)
-        * [Hero Image](#hero-image)
+        * [Hero Image](#hero)
         * [Footer](#footer)
         * [Favicon](#favicon)
     * [Home Page](#home-page)
@@ -53,7 +53,7 @@ This is the documentation for Batala Bangor’s new website. It has been built u
         * [Thankyou Page](#thankyou-page)
         * [404 Page](#404-page)
     * [Future Features](#future-features)
-* [Testing](#testing)
+* [Testing](#testing--bugs)
     * [HTML Validation](#html-validation)
     * [CSS Validation](#css-validation)
     * [Accessibility](#accessibility)
@@ -80,14 +80,14 @@ Batala Bangor is a samba reggae drumming group based in North Wales. Each summer
 * For the band to get booked for more / better events (Primary Goal)
 * To have a more professional appearance
 * To attract new members
-* To share information about our band, our music and the global Batala community
+* To share information about the band, music and the global Batala community
 
 #### **User Goals**
 
 The website will be for different types of users with different motivations and goals [further details below](#user-stories):
 * An event organiser looking to book the band
 * Someone interested in joining the band
-* Fans of the band interested in learning more about them
+* Fans of the band
 
 
 ### Research
@@ -143,7 +143,7 @@ I chose to have a bright, clean, bold design using the Batala colours of red, wh
 
 #### **Wireframes**
 
-I decided to create a fully designed site in Figma before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the coding later on.
+I decided to create a fully designed site in [Figma](https://www.figma.com/) before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major creative design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the technical coding later on.
 
 <details><summary>Home</summary>
 <img src="assets/images/readme/wireframes-home.png">
@@ -172,9 +172,9 @@ The site has a simple structure made up of 4 pages:
     * A thank you page for when a user has submitted a form
     * A 404 page for when a user lands on a non-existent page
 
-The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go.
+The site has a navbar which remains fixed to the top of the page on desktop & tablet, (on mobile it uses too much screen real estate and negatively impact on the user experience so it scrolls with the rest of the page) this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with links to the band's social media sites.
 
-There is also another method of navigation, a preferred pathway through the site via suggested links which would guide a first time user through the content should they wish to follow it. This is designed primarily for people who want to book the band (as this is the primary goal for the client) but with a secondary option for people who want to join.
+There is also another method of navigation, a preferred pathway through the site via suggested links which would guide a first time user through the content. This is designed primarily for people who want to book the band (as this is the primary goal for the client) but with a secondary option for people who want to join.
 
 The suggested route is: HOME > ABOUT > BOOK/JOIN
 
@@ -184,8 +184,6 @@ The suggested route is: HOME > ABOUT > BOOK/JOIN
 <img src="assets/images/readme/wireframes-navroute-button-2.jpg">
 
 *Buttons that the user would use to navigate through the site on this route*
-
-
 
 </details>
 
@@ -217,20 +215,20 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
     * Used to create, edit & preview the project's code
 * [Figma](https://www.figma.com/)
     * Used to develop the wireframes in to a full mockup including colours, fonts, proportions etc
-* [Favicon.io](https://favicon.io/favicon-converter/)
-    * Used to create and add the favicon to the browser tab
-* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
-    * Used to help create the colour pallette as well as designing some of the graphic elements such as the buttons
-* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
-    * Used to crop, adjust and resize the photos to optimise them for the site
-* [Image Optim](https://imageoptim.com)
-    * Used to further optimise the images for the site
 * [Bootstrap 5.2.3](https://getbootstrap.com/)
     * Used to help with the responsiveness of the site and to aid the coding of some of the layout, inlcluding the nav bar, the hero images & the photo galleries
 * [Google Fonts](https://fonts.google.com/)
     * Used to select & import the fonts to the project (Poppins & Fira Sans)
 * [Font Awesome](https://fontawesome.com/)
     * Used to add icons to the site to help with UX and to add more character
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+    * Used to help create the colour pallette as well as designing some of the graphic elements such as the buttons
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+    * Used to crop, adjust and resize the photos to optimise them for the site
+* [Tiny PNG](https://tinypng.com/)
+    * Used to further optimise the images for the site and reduce file size
+* [Favicon.io](https://favicon.io/favicon-converter/)
+    * Used to create and add the favicon to the browser tab
 
 
 ## Features
@@ -273,7 +271,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 * This hero is responsive, with the text, layout and gradient changing on different size screens in portrait and landscape, for legibility and aesthetic purposes.
 * The JOIN, BOOK and ABOUT pages have a smaller hero image container to give more space to other more important features on these pages.
 
-<details><summary>Screenshot</summary>
+<details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/feat-2-hero-1.jpeg">
 
@@ -302,9 +300,10 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 #### **Footer**
 
 * The footer appears on all pages
-    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou-page-responsiveness)
+    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou404-page-responsiveness)
 * The footer has a unique design of a partial circle and an outer stroke. This is a bespoke design that I created for the brand and is repeated in the button design.
 * The footer contains links to social media pages, all of which open in a separate tab.
+* The social links change to the site red colour when the user hovers over them. The animation on these has an ease-in-out to make the colour transition smoothly.
 * The footer is designed to work on any screen size down to the smallest mobile screens.
 
 <details><summary>Screenshots</summary>
@@ -345,7 +344,8 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 * The first section that the user arrives after the hero is a large, bright red container with a brief bio of the band.
 * This will give the user an immediate understanding of who the band is and what they do.
 * There is also an animated button to encourage the user to find out more about the band (link to About Us)
-    * This button has CSS animation on hover devices. The lines represent the vibrations coming off a drum.
+    * This button has CSS animation on hover devices. The lines represent the vibrations coming off a drum. The text on the button also has a slight scale transform to make the hover effect more impactful.
+    * The animation is smooth, with an ease-in-out and staggered timing so the lines appear with a slight offset to give a ripple effect.
     * The animation is disabled on non-hover devices, so the lines are permenantly visible.
 * This button gives the user another navigation route through the site, an alternative to navigating using the navbar.
 
@@ -389,10 +389,10 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 #### **Video**
 
-* An embedded YouTube video player featuring Batala Mundo playing.
-* The player is designed not to autoplay so the user is not surprised by sudden moving video.
+* An embedded YouTube video player featuring Batala Bangor playing as part of the Notting Hill Carnival with Batala Mundo.
+* The player is designed not to autoplay so the user is not surprised by sudden video or audio.
 * The player has bespoke sizing which adjusts on different screen sizes.
-* The player has built in features such as, play controls, a full screen button and volume control to give the user full control of the video.
+* The player has built in features such as play controls, a full screen button and volume control to give the user full control of the video.
 
 <details><summary>Screenshots</summary>
 
@@ -460,7 +460,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 * Text information and a booking form to enquire about booking the band
 * On desktop these sit side by side but on smaller screens they stack.
     * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
-    * There are also some layout changes to make the order change and headings make sense
+    * There are also some layout changes to make the order change and headings make sense on smaller screens
 * The submit button has the same styling and animation as the other buttons
 * All form elements are required and must be filled in
 * The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
@@ -493,7 +493,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 #### **Testimonials**
 
 * A series of quotes from previous events giving positive feedback about the band with small circular thumbnail images to make the text a bit more compelling and eye-catching.
-* This gives the person interested in booking some reassurance about what they're booking.
+* This builds trust to encourage users to book the band.
 * This section is responsive, stacking in to a single column on smaller screens.
 
 <details><summary>Screenshots</summary>
@@ -520,7 +520,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 * Text information and an expression of interest form to enquire about joining the band
 * On desktop these sit side by side but on smaller screens they stack.
     * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
-    * There are also some layout changes to make the order change and headings make sense
+    * There are also some layout changes to make the order change and headings make sense on smaller screens
 * The submit button has the same styling and animation as the other buttons
 * All form elements are required and must be filled in
 * The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
@@ -548,7 +548,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 #### **Join Photo Gallery**
 
 * A fully responsive photo gallery containing square images.
-* This will give someone an idea of who is in the band, the types of events that we play at and seeing smiling people will hopefully encourage them to join.
+* This will give someone an idea of who is in the band & the types of events that they play at. Seeing smiling people will hopefully encourage them to join.
 * The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 <details><summary>Screenshots</summary>
@@ -663,7 +663,7 @@ I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 
 ### Accessibility
 
-I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). I discovered a number of small issues that required some changes to make the site more accessible.
+I ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). The tool raised a few issues, some of which required steps to make the site more accessible:
 
 #### **Contrast Error: sr-only**
 <details><summary>Screenshot</summary>
@@ -693,8 +693,16 @@ The tool raised a number of issues with the ordering of the heading elements, in
 
 The tool also picked up on a missing label for the `<textarea>` element in the book and join forms. As the textarea contained placeholder text I had not included a label. I solved this problem by adding an aria-label to the `<textarea>` with the same text content as the placeholder. (An additional bug also appeared in the `<textarea>` code in my general testing: [detailed here](#booking-form---textarea-text-requires-manual-deletion))
 
+In addition to the above there were also 2 alerts which, following investigation, I felt didn't require any further action or improvements:
 
-With these amendment made there were no further significant accessibility issues in the site.
+#### **Redundant link**
+
+The tool flagged up that there were 2 links next to each other in the nav that went to the same URL (index.html). This was due to the logo and Batala Bangor being a clickable link to the homepage as well as the "HOME" nav link, as I wanted the navigation to be as intuitive as possible for the user, giving them 2 options to get home. This would also follow the normal conventions of the web where people expect a logo to be clickable and to go back to the home page. Based on this I felt no further action was required.
+
+#### **YouTube Video Subtitles**
+
+The tool also put out a general alert for the YouTube video to advise that all videos should offer syncronised captioning. As the video doesn't contain any speaking, only drumming, I decided that no further action was required here.
+
 
 ### Performance
 
@@ -853,7 +861,7 @@ There was also an issue with the 404 & Thankyou pages not displaying all the con
 <img src="assets/images/readme/bugs-safari-images.jpg">
 </details>
 
-A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were sucessful using jpgs with no impact on the performance score.
+A major bug I encountered when testing on Safari was that it didn't display webp format images in older versions of Safari. After doing some research in to various solutions to this apparently common problem I decided that it was too significant an issue to ignore as it would create a very poor user experience for users on older Safari browsers. I made the decision to replace all the webp images with optimised jpgs. I re-tested the site with Lighthouse and the performance scores were identical.
 
 Lighthouse Results with JPG Images
 <details><summary>Home</summary>
@@ -885,11 +893,13 @@ I tested the site based on my user stories:
 <img src="assets/images/readme/us-1-1.jpeg">
 <img src="assets/images/readme/us-1-2.jpeg">
 <img src="assets/images/readme/us-1-3.jpeg">
+<img src="assets/images/readme/us-1-4.jpeg">
 </details>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Short Bio • Find Out More Button • About Us Text | Scroll down on homepage, read short bio, click on 'find out more' button, read more detail on About Us page | Find information about the band | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "ABOUT US" on nav, read more detail on About Us page | Find information about the band | Works as expected |
 
 #### **2. I want to see & hear media content of the band performing:**
 
