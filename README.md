@@ -143,8 +143,6 @@ I chose to have a bright, clean, bold design using the Batala colours of red, wh
 
 #### **Wireframes**
 
-I decided to create a fully designed site in [Figma](https://www.figma.com/) before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major creative design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the technical coding later on.
-
 <details><summary>Home</summary>
 <img src="assets/images/readme/wireframes-home.png">
 </details>
@@ -158,6 +156,7 @@ I decided to create a fully designed site in [Figma](https://www.figma.com/) bef
 <img src="assets/images/readme/wireframes-join.png">
 </details>
 
+I decided to create a fully designed site in [Figma](https://www.figma.com/) before moving on to coding. This allowed me to develop the structure, skeleton and layout as well as developing the style and look of the site. As this was my first web development project I wanted to have all major creative design decisions in place including the colours, fonts, spacing, proportions, which images I would use etc so that I could focus on the technical coding later on.
    
 #### **Structure**
 
@@ -237,13 +236,6 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 #### **Nav Bar**
 
-* Appears on all pages
-* Contains the logo, the name of the band (on larger screens) and nav links to all the main pages
-* The navbar is fully responsive
-* On larger devices the navbar stays fixed at the top of the screen as the user scrolls
-* The page that the user is currently on is highlighted
-* There is a hover effect on the other nav links
-
 <details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/feat-1-nav-1.jpeg">
@@ -260,16 +252,15 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* Appears on all pages
+* Contains the logo, the name of the band (on larger screens) and nav links to all the main pages
+* The navbar is fully responsive
+* On larger devices the navbar stays fixed at the top of the screen as the user scrolls
+* The page that the user is currently on is highlighted
+* There is a hover effect on the other nav links
 
 
 #### **Hero**
-
-* Each main page features a hero image with the title of the page as a text header.
-* The home page has a large hero image designed to take up a large proportion of the viewing window, so that the first thing the user sees is a strong, large image of the band. The size of this has been designed to leave a small part of the next container visible as a hint to encourage the user to scroll down.
-    * On smaller screen sizes this size is reduced to work better with the aspect ratio of the photo and to provide a better user experience
-* The images have a gradient over them to improve the legibility of the text.
-* This hero is responsive, with the text, layout and gradient changing on different size screens in portrait and landscape, for legibility and aesthetic purposes.
-* The JOIN, BOOK and ABOUT pages have a smaller hero image container to give more space to other more important features on these pages.
 
 <details><summary>Screenshots</summary>
 
@@ -295,16 +286,15 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* Each main page features a hero image with the title of the page as a text header.
+* The home page has a large hero image designed to take up a large proportion of the viewing window, so that the first thing the user sees is a strong, large image of the band. The size of this has been designed to leave a small part of the next container visible as a hint to encourage the user to scroll down.
+    * On smaller screen sizes this size is reduced to work better with the aspect ratio of the photo and to provide a better user experience
+* The images have a gradient over them to improve the legibility of the text.
+* This hero is responsive, with the text, layout and gradient changing on different size screens in portrait and landscape, for legibility and aesthetic purposes.
+* The JOIN, BOOK and ABOUT pages have a smaller hero image container to give more space to other more important features on these pages.
 
 
 #### **Footer**
-
-* The footer appears on all pages
-    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou404-page-responsiveness)
-* The footer has a unique design of a partial circle and an outer stroke. This is a bespoke design that I created for the brand and is repeated in the button design.
-* The footer contains links to social media pages, all of which open in a separate tab.
-* The social links change to the site red colour when the user hovers over them. The animation on these has an ease-in-out to make the colour transition smoothly.
-* The footer is designed to work on any screen size down to the smallest mobile screens.
 
 <details><summary>Screenshots</summary>
 
@@ -322,11 +312,15 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* The footer appears on all pages
+    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou404-page-responsiveness)
+* The footer has a unique design of a partial circle and an outer stroke. This is a bespoke design that I created for the brand and is repeated in the button design.
+* The footer contains links to social media pages, all of which open in a separate tab.
+* The social links change to the site red colour when the user hovers over them. The animation on these has an ease-in-out to make the colour transition smoothly.
+* The footer is designed to work on any screen size down to the smallest mobile screens.
 
 
 #### **Favicon**
-
-* The favicon is a feature I added to display the Batala Bangor logo in the top tab of the site. This helps to build the brand and to make the site easier to pick out from other tabs for the user.
 
 <details><summary>Screenshots</summary>
 
@@ -336,18 +330,12 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* The favicon is a feature I added to display the Batala Bangor logo in the top tab of the site. This helps to build the brand and to make the site easier to pick out from other tabs for the user.
+
 
 ### Home Page
 
 #### **Bio & Find Out More Button**
-
-* The first section that the user arrives after the hero is a large, bright red container with a brief bio of the band.
-* This will give the user an immediate understanding of who the band is and what they do.
-* There is also an animated button to encourage the user to find out more about the band (link to About Us)
-    * This button has CSS animation on hover devices. The lines represent the vibrations coming off a drum. The text on the button also has a slight scale transform to make the hover effect more impactful.
-    * The animation is smooth, with an ease-in-out and staggered timing so the lines appear with a slight offset to give a ripple effect.
-    * The animation is disabled on non-hover devices, so the lines are permenantly visible.
-* This button gives the user another navigation route through the site, an alternative to navigating using the navbar.
 
 <details><summary>Screenshots</summary>
 
@@ -361,13 +349,16 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* The first section that the user arrives after the hero is a large, bright red container with a brief bio of the band.
+* This will give the user an immediate understanding of who the band is and what they do.
+* There is also an animated button to encourage the user to find out more about the band (link to About Us)
+    * This button has CSS animation on hover devices. The lines represent the vibrations coming off a drum. The text on the button also has a slight scale transform to make the hover effect more impactful.
+    * The animation is smooth, with an ease-in-out and staggered timing so the lines appear with a slight offset to give a ripple effect.
+    * The animation is disabled on non-hover devices, so the lines are permenantly visible.
+* This button gives the user another navigation route through the site, an alternative to navigating using the navbar.
 
 
 #### **Home Photo Gallery**
-
-* A fully responsive photo gallery containing square images.
-* This will give the user lots of strong visuals of the band playing to help build a sense of who they are and what they do.
-* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -385,14 +376,12 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* A fully responsive photo gallery containing square images.
+* This will give the user lots of strong visuals of the band playing to help build a sense of who they are and what they do.
+* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 
 #### **Video**
-
-* An embedded YouTube video player featuring Batala Bangor playing as part of the Notting Hill Carnival with Batala Mundo.
-* The player is designed not to autoplay so the user is not surprised by sudden video or audio.
-* The player has bespoke sizing which adjusts on different screen sizes.
-* The player has built in features such as play controls, a full screen button and volume control to give the user full control of the video.
 
 <details><summary>Screenshots</summary>
 
@@ -402,15 +391,15 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* An embedded YouTube video player featuring Batala Bangor playing as part of the Notting Hill Carnival with Batala Mundo.
+* The player is designed not to autoplay so the user is not surprised by sudden video or audio.
+* The player has bespoke sizing which adjusts on different screen sizes.
+* The player has built in features such as play controls, a full screen button and volume control to give the user full control of the video.
+
 
 ### About Us
 
 #### **About Us Sections**
-
-* 3 sections containing text and a strong image with information about different aspects of the band.
-* The sections are fully responsive and stack vertically with styling and layout changes on smaller screens.
-* The images have a rounded edge to continue the circular design style used elsewhere on the site.
-
 
 <details><summary>Screenshots</summary>
 
@@ -436,13 +425,12 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* 3 sections containing text and a strong image with information about different aspects of the band.
+* The sections are fully responsive and stack vertically with styling and layout changes on smaller screens.
+* The images have a rounded edge to continue the circular design style used elsewhere on the site.
 
 
 #### **Call To Action**
-
-* Underneath the About Us sections the user is encouraged to click on a "BOOK US" button to link to the relevant section of the site.
-    * The button has the same styling & animation as the "FIND OUT MORE" button
-* There is also a smaller link to the "JOIN US" page. This allows users who are interested in joining rather than booking to easily find what they are looking for.
 
 <details><summary>Screenshots</summary>
 
@@ -452,19 +440,14 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* Underneath the About Us sections the user is encouraged to click on a "BOOK US" button to link to the relevant section of the site.
+    * The button has the same styling & animation as the "FIND OUT MORE" button
+* There is also a smaller link to the "JOIN US" page. This allows users who are interested in joining rather than booking to easily find what they are looking for.
+
 
 ### Book Us
 
 #### **Book Us Info & Form**
-
-* Text information and a booking form to enquire about booking the band
-* On desktop these sit side by side but on smaller screens they stack.
-    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
-    * There are also some layout changes to make the order change and headings make sense on smaller screens
-* The submit button has the same styling and animation as the other buttons
-* All form elements are required and must be filled in
-* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
-* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 
 <details><summary>Screenshots</summary>
 
@@ -488,13 +471,17 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* Text information and a booking form to enquire about booking the band
+* On desktop these sit side by side but on smaller screens they stack.
+    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
+    * There are also some layout changes to make the order change and headings make sense on smaller screens
+* The submit button has the same styling and animation as the other buttons
+* All form elements are required and must be filled in
+* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
+* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 
 
 #### **Testimonials**
-
-* A series of quotes from previous events giving positive feedback about the band with small circular thumbnail images to make the text a bit more compelling and eye-catching.
-* This builds trust to encourage users to book the band.
-* This section is responsive, stacking in to a single column on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -512,19 +499,15 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* A series of quotes from previous events giving positive feedback about the band with small circular thumbnail images to make the text a bit more compelling and eye-catching.
+* This builds trust to encourage users to book the band.
+* This section is responsive, stacking in to a single column on smaller screens.
+
 
 ### Join Us
 
 #### **Join Us Info & Form**
 
-* Text information and an expression of interest form to enquire about joining the band
-* On desktop these sit side by side but on smaller screens they stack.
-    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
-    * There are also some layout changes to make the order change and headings make sense on smaller screens
-* The submit button has the same styling and animation as the other buttons
-* All form elements are required and must be filled in
-* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
-* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 <details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/feat-14-join-1.jpeg">
@@ -543,13 +526,17 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* Text information and an expression of interest form to enquire about joining the band
+* On desktop these sit side by side but on smaller screens they stack.
+    * The form appears at the top of the stack so that users can immediately see what they have to do and won't miss the form if they fail to scroll down.
+    * There are also some layout changes to make the order change and headings make sense on smaller screens
+* The submit button has the same styling and animation as the other buttons
+* All form elements are required and must be filled in
+* The submit button leads the user to a "thankyou" page which reassures them that their form has been sent and offers a route back to the main site.
+* The info text also offers the option of emailing the band instead, the email address contains a link to open an email with the address already in place.
 
 
 #### **Join Photo Gallery**
-
-* A fully responsive photo gallery containing square images.
-* This will give someone an idea of who is in the band & the types of events that they play at. Seeing smiling people will hopefully encourage them to join.
-* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
 
 <details><summary>Screenshots</summary>
 
@@ -567,15 +554,14 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* A fully responsive photo gallery containing square images.
+* This will give someone an idea of who is in the band & the types of events that they play at. Seeing smiling people will hopefully encourage them to join.
+* The gallery adapts to different screen sizes with the images re-sizing to fill the space and wrapping on to new rows on smaller screens.
+
 
 ### Other Pages
 
 #### **Thankyou Page**
-
-* A simple page that appears when a user submits a form
-* Improves user experience - reassures the user that the form has sent correctly
-* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
-* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 <details><summary>Screenshots</summary>
 
@@ -585,14 +571,13 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 </details>
 
+* A simple page that appears when a user submits a form
+* Improves user experience - reassures the user that the form has sent correctly
+* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
+* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 
 #### **404 Page**
-
-* A simple page that appears when a user ends up on a page that doesn't exist
-* Improves user experience - by having a branded 404 page a user is less annoyed by something going wrong, the site looks more professional and it will hopefully provide a more positive emotional response than a generic 404 page that makes the user feel they have moved completely off the Batala Bangor site.
-* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
-* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 <details><summary>Screenshots</summary>
 
@@ -601,6 +586,11 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 *Form Submission - Thankyou Page*
 
 </details>
+
+* A simple page that appears when a user ends up on a page that doesn't exist
+* Improves user experience - by having a branded 404 page a user is less annoyed by something going wrong, the site looks more professional and it will hopefully provide a more positive emotional response than a generic 404 page that makes the user feel they have moved completely off the Batala Bangor site.
+* Contains all nav links to other pages as well as a text link to the homepage to allow the user to move on.
+* The footer disappears on smaller landscape devices to allow the homepage link to appear [more info](#thankyou404-page-responsiveness)
 
 
 ### Future Features
