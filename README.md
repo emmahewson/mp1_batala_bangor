@@ -14,6 +14,7 @@ This is the documentation for Batala Bangor’s new website. It has been built u
 
 1. [Project Development & Planning](#project-development--planning)
     * [Project Goals](#project-goals)
+        * [Project Purpose](#project-purpose)
         * [Client Background](#client-background)
         * [Client Goals](#client-goals)
         * [User Goals](#user-goals)
@@ -72,7 +73,7 @@ I followed the principles of User Experience (UX) in the planning and developmen
 
 ### Project Goals
 
-#### **Project Purpose & Rationale**
+#### **Project Purpose**
 
 Batala Bangor, a North Wales based drumming group, are looking for an updated and redesigned website to promote and share information about the band.
 

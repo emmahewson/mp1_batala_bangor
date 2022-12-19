@@ -699,10 +699,6 @@ footer {
         font-weight: 700;
     }
 
-    .lg-only {
-        display: none;
-    }
-
     .form-text-block {
         padding: 0;
         text-align: center;
