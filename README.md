@@ -72,6 +72,10 @@ I followed the principles of User Experience (UX) in the planning and developmen
 
 ### Project Goals
 
+#### **Project Purpose & Rationale**
+
+Batala Bangor, a North Wales based drumming group, are looking for an updated and redesigned website to promote and share information about the band.
+
 #### **Client Background**
 Batala Bangor is a samba reggae drumming group based in North Wales. Each summer the band perform at carnivals, fairs, festivals and events across North Wales and beyond. Anyone can join and no experience is required. The music that Batala Bangor plays originates in Salvador, Brazil, and Batala Bangor is one of over 40 Batala bands worldwide who all play the same rhythms and meet up regularly for international events.
 
