@@ -651,7 +651,7 @@ They fell under 2 categories
 
 ### CSS Validation
 
-I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were no errors, there were a number of warnings but the validator was simply flagging up that it couldn't check the external Bootstrap stylesheet.
+I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). There were no errors, there were a number of warnings but the validator was simply flagging up that it couldn't check the external Bootstrap stylesheet.
 <details><summary>CSS Validation Results</summary>
 <img src="assets/images/readme/val-css-1.jpg">
 </details>
