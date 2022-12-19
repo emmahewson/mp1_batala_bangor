@@ -377,12 +377,6 @@ nav {
     height: 160px;
 }
 
-#book-form-date {
-    display: block;
-    height: 26px;
-    padding-right: 10px;
-}
-
 input:focus,
 textarea:focus {
     outline-color: #282727;
