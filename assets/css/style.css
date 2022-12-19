@@ -362,6 +362,11 @@ nav {
     color: #3a3a3a;
 }
 
+.form-label-text,
+.form-input-text {
+    font-weight: 300;
+}
+
 .form-input-text {
     margin-top: 5px;
 }
@@ -370,10 +375,6 @@ nav {
     margin-top: 20px;
     padding: 10px;
     height: 160px;
-}
-
-.form-label-text {
-    font-weight: 300;
 }
 
 input:focus,
