@@ -884,6 +884,18 @@ I tested the site based on my user stories:
 
 #### **1. I want to find out information about the band:**
 
+<details><summary>Screen Recording</summary>
+
+<img src="assets/images/readme/us-1-1.gif">
+
+*Via "FIND OUT MORE" Button*
+
+<img src="assets/images/readme/us-1-2.gif">
+
+*Via Nav Bar*
+
+</details>
+
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-1-1.jpeg">
 <img src="assets/images/readme/us-1-2.jpeg">
@@ -897,6 +909,10 @@ I tested the site based on my user stories:
 | Nav Bar - About Us Link • About Us Text | Click on "ABOUT US" on nav, read more detail on About Us page | Find information about the band | Works as expected |
 
 #### **2. I want to see & hear media content of the band performing:**
+
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-2.gif">
+</details>
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-2-1.jpeg">
@@ -912,6 +928,10 @@ I tested the site based on my user stories:
 
 #### **3. I want to see feedback from previous events:**
 
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-3.gif">
+</details>
+
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-3-1.jpeg">
 <img src="assets/images/readme/us-3-2.jpeg">
@@ -923,6 +943,10 @@ I tested the site based on my user stories:
 
 #### **4. I want to find links to social media for more information and to interact with the band:**
 
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-4.gif">
+</details>
+
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-4-1.jpeg">
 <img src="assets/images/readme/us-4-2.jpeg">
@@ -933,6 +957,10 @@ I tested the site based on my user stories:
 | Social Media Links in Footer | Scroll to the bottom of main pages, click on footer social media links | User can click through to social media with all links opening in a separate tab. | Works as expected |
 
 #### **5. I want to contact the band to enquire about booking:**
+
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-5.gif">
+</details>
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-5-1.jpeg">
@@ -949,6 +977,10 @@ I tested the site based on my user stories:
 
 #### **6. I want to find out about commitment & experience required to join & opportunities for members:**
 
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-6.gif">
+</details>
+
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-6-1.jpeg">
 <img src="assets/images/readme/us-6-2.jpeg">
@@ -960,6 +992,10 @@ I tested the site based on my user stories:
 | Join Us Text | Click on "JOIN US" on nav, scroll down to read Join Us text, click on "find out more about us" to link to "About Us" page for more general information. | User finds text information about joining the band. | Works as expected |
 
 #### **7. I want to contact the band to express an interest in joining:**
+
+<details><summary>Screen Recording</summary>
+<img src="assets/images/readme/us-7.gif">
+</details>
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme/us-7-1.jpeg">
