@@ -89,10 +89,10 @@ Batala Bangor is a samba reggae drumming group based in North Wales. Each summer
 
 #### **User Goals**
 
-The website will be for different types of users with different motivations and goals [further details below](#user-stories):
+The website will be for different types of users with different motivations and goals. [Further details below](#user-stories):
 * An event organiser looking to book the band
 * Someone interested in joining the band
-* Fans of the band
+* A fan of the band
 
 
 ### Research
@@ -318,10 +318,10 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 </details>
 
 * The footer appears on all pages
-    * The only exception is on certain small landscape screen sizes due to a bug fix. [Read more here](#thankyou404-page-responsiveness)
+    * The only exception is on certain small landscape screen sizes on the 404 and thankyou pages due to a bug fix. [Read more here](#thankyou404-page-responsiveness)
 * The footer has a unique design of a partial circle and an outer stroke. This is a bespoke design that I created for the brand and is repeated in the button design.
 * The footer contains links to social media pages, all of which open in a separate tab.
-* The social links change to the site red colour when the user hovers over them. The animation on these has an ease-in-out to make the colour transition smoothly.
+* The social links change to the soft red colour used across the site when the user hovers over them. The animation on these has an ease-in-out to make the colour transition smoothly.
 * The footer is designed to work on any screen size down to the smallest mobile screens.
 
 
@@ -398,7 +398,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 * An embedded YouTube video player featuring Batala Bangor playing as part of the Notting Hill Carnival with Batala Mundo.
 * The player is designed not to autoplay so the user is not surprised by sudden video or audio.
-* The player has bespoke sizing which adjusts on different screen sizes.
+* The player has bespoke, responsive sizing which adjusts on different screen sizes.
 * The player has built in features such as play controls, a full screen button and volume control to give the user full control of the video.
 
 
@@ -432,7 +432,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Poppins](https://
 
 * 3 sections containing text and a strong image with information about different aspects of the band.
 * The sections are fully responsive and stack vertically with styling and layout changes on smaller screens.
-* The images have a rounded edge to continue the circular design style used elsewhere on the site.
+* The images have a rounded corners to continue the circular design style used elsewhere on the site.
 
 
 #### **Call To Action**
@@ -777,7 +777,7 @@ During development and testing, in addition to the improvements described in the
 
 #### **Animated button lines on no-hover devices**
 
-During development I created 'buttons' which had a hover CSS animation on them where lines animated out from behind the circle (designed to represent drum vibrations.) However I wanted the lines to be visible on devices where there was no hover available (e.g. touchscreen). My solution was to create an additional media query for devices without a hover function that changed the starting values for the scale transform to the final values of the animation.
+During development I created buttons which had a hover CSS animation on them where lines animated out from behind the circle (designed to represent drum vibrations.) However I wanted the lines to be visible on devices where there was no hover available (e.g. touchscreen). My solution was to create an additional media query for devices without a hover function that changed the starting values for the scale transform to the final values of the animation.
 
 <details><summary>Final Code Snippet</summary>
 
@@ -806,7 +806,7 @@ During testing on an Apple iPhone SE I discovered that the date input styling wa
 
 During testing on an Apple iPhone SE I discovered that the SUBMIT text had disappeared from the button. This was tricky to diagnose as it was only appearing on my mobile device, not on dev tools. I attempted a variety of fixes including changing the z-index. I fixed this issue by giving the SUBMIT button text an explicit colour, as I discovered the text was there but was displaying in white, so it was invisible against the white background.
 
-#### **Booking Form - Broken Logo**
+#### **Broken Logo Image**
 
 <details><summary>Screenshot</summary>
 <img src="assets/images/readme/bugs-logo-broken.jpg">
@@ -828,7 +828,7 @@ During testing I noticed that the text within the `<textarea>` on both forms nee
 <img src="assets/images/readme/bugs-thanks-layout.jpg">
 </details>
 
-During testing I discovered that the thankyou page (after submitting a form) was displaying with an incorrect layout when the window was wider than 1300px. This was also happening on the 404 page. This issue appeared to be caused by the unique layout of these pages which were designed not to scroll, this somehow cause the max-width on the body to not apply to these footers. After some experimentation I fixed this issue by targeting the footer on these pages and using the following CSS styling:
+During testing I discovered that the thankyou and 404 pages were displaying with an incorrect layout when the window was wider than 1300px (the max-width I had set for the site). This issue appeared to be caused by the unique layout of these pages which were designed not to scroll, this somehow cause the max-width on the body to not apply to the footer. After some experimentation I fixed this issue by targeting the footer on these pages and using the following CSS styling:
 
     .subpage-footer {
         position: fixed;
